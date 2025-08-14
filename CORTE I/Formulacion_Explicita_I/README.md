@@ -2,16 +2,6 @@
 
 ---
 
-## Pontificia Universidad Javeriana  
-**Departamento de Ingeniería Industrial**  
-**Optimización Lineal - Corte 1**  
-
-### Introducción a la formulación explícita
-
-Este repositorio contiene ejemplos de formulación explícita para problemas de programación lineal, con datos, enunciados y soluciones parciales.  
-
----
-
 ## Problema 1. Deportivos SAS
 Los grandes almacenes **Deportivos SAS** encargan a un fabricante pantalones y chaquetas deportivas.  
 - **Recursos disponibles:**  
