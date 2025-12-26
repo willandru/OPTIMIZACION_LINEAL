@@ -1,0 +1,159 @@
+Problem:    Inv2
+Rows:       37
+Columns:    54
+Non-zeros:  177
+Status:     OPTIMAL
+Objective:  Z = 4872.416667 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B        4872.42                             
+     2 capacidadProduccion[1,1]
+                    B          0.125                           1 
+     3 capacidadProduccion[1,2]
+                    NU             1                           1           -20 
+     4 capacidadProduccion[1,3]
+                    NU             1                           1           -40 
+     5 capacidadProduccion[1,4]
+                    NU             1                           1           -60 
+     6 capacidadProduccion[1,5]
+                    B          0.625                           1 
+     7 capacidadProduccion[1,6]
+                    NU             1                           1           -20 
+     8 capacidadProduccion[2,1]
+                    B       0.547619                           1 
+     9 capacidadProduccion[2,2]
+                    NU             1                           1         -24.5 
+    10 capacidadProduccion[2,3]
+                    NU             1                           1           -49 
+    11 capacidadProduccion[2,4]
+                    NU             1                           1           -76 
+    12 capacidadProduccion[2,5]
+                    NU             1                           1           -98 
+    13 capacidadProduccion[2,6]
+                    NU             1                           1        -122.5 
+    14 capacidadVolumenBodega[1]
+                    B        14.8667                        1000 
+    15 capacidadVolumenBodega[2]
+                    B        11.8833                        1000 
+    16 capacidadVolumenBodega[3]
+                    B        11.8333                        1000 
+    17 capacidadVolumenBodega[4]
+                    B        2.93333                        1000 
+    18 capacidadVolumenBodega[5]
+                    B            3.2                        1000 
+    19 capacidadVolumenBodega[6]
+                    B              0                        1000 
+    20 Inventario_inicial[1]
+                    NS             5             5             =           -10 
+    21 Inventario_inicial[2]
+                    NS            35            35             =            -6 
+    22 Inventario_inicial[3]
+                    NS            30            30             =      -9.95833 
+    23 inventario[1,2]
+                    NS           -30           -30             =         -10.5 
+    24 inventario[1,3]
+                    NS           -40           -40             =           -11 
+    25 inventario[1,4]
+                    NS           -60           -60             =         -11.5 
+    26 inventario[1,5]
+                    NS           -20           -20             =           -10 
+    27 inventario[1,6]
+                    NS           -45           -45             =         -10.5 
+    28 inventario[2,2]
+                    NS           -60           -60             =         -6.35 
+    29 inventario[2,3]
+                    NS           -50           -50             =          -6.7 
+    30 inventario[2,4]
+                    NS           -30           -30             =         -7.05 
+    31 inventario[2,5]
+                    NS           -30           -30             =          -7.4 
+    32 inventario[2,6]
+                    NS           -55           -55             =         -7.75 
+    33 inventario[3,2]
+                    NS           -40           -40             =      -10.4083 
+    34 inventario[3,3]
+                    NS           -20           -20             =      -10.8167 
+    35 inventario[3,4]
+                    NS           -70           -70             =      -11.2667 
+    36 inventario[3,5]
+                    NS           -40           -40             =      -11.6333 
+    37 inventario[3,6]
+                    NS           -30           -30             =      -12.0417 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 X[1,1,1]     B              5             0               
+     2 X[1,1,2]     B             40             0               
+     3 X[1,1,3]     B             40             0               
+     4 X[1,1,4]     B             40             0               
+     5 X[1,1,5]     B             25             0               
+     6 X[1,1,6]     B             40             0               
+     7 X[1,2,1]     NL             0             0                           2 
+     8 X[1,2,2]     NL             0             0                     1.98333 
+     9 X[1,2,3]     NL             0             0                     1.96667 
+    10 X[1,2,4]     NL             0             0                        1.95 
+    11 X[1,2,5]     NL             0             0                         0.6 
+    12 X[1,2,6]     NL             0             0                    0.583333 
+    13 X[1,3,1]     NL             0             0                     5.04167 
+    14 X[1,3,2]     NL             0             0                     4.84167 
+    15 X[1,3,3]     NL             0             0                     4.68333 
+    16 X[1,3,4]     NL             0             0                     4.48333 
+    17 X[1,3,5]     NL             0             0                     3.36667 
+    18 X[1,3,6]     NL             0             0                     3.20833 
+    19 X[2,1,1]     NL             0             0                           2 
+    20 X[2,1,2]     NL             0             0                     1.77222 
+    21 X[2,1,3]     NL             0             0                     1.54444 
+    22 X[2,1,4]     NL             0             0                     1.34444 
+    23 X[2,1,5]     NL             0             0                     3.08889 
+    24 X[2,1,6]     NL             0             0                     2.86111 
+    25 X[2,2,1]     B        38.3333             0               
+    26 X[2,2,2]     B        58.3333             0               
+    27 X[2,2,3]     B             35             0               
+    28 X[2,2,4]     NL             0             0                   0.0357143 
+    29 X[2,2,5]     B        23.3333             0               
+    30 X[2,2,6]     B             35             0               
+    31 X[2,3,1]     NL             0             0                   0.0416667 
+    32 X[2,3,2]     B             10             0               
+    33 X[2,3,3]     B             30             0               
+    34 X[2,3,4]     B             60             0               
+    35 X[2,3,5]     B             40             0               
+    36 X[2,3,6]     B             30             0               
+    37 Y[1,1]       B             10             0               
+    38 Y[1,2]       B             20             0               
+    39 Y[1,3]       B             20             0               
+    40 Y[1,4]       NL             0             0                           2 
+    41 Y[1,5]       B              5             0               
+    42 Y[1,6]       NL             0             0                          11 
+    43 Y[2,1]       B        73.3333             0               
+    44 Y[2,2]       B        71.6667             0               
+    45 Y[2,3]       B        56.6667             0               
+    46 Y[2,4]       B        26.6667             0               
+    47 Y[2,5]       B             20             0               
+    48 Y[2,6]       NL             0             0                         8.1 
+    49 Y[3,1]       B             30             0               
+    50 Y[3,2]       NL             0             0                   0.0416667 
+    51 Y[3,3]       B             10             0               
+    52 Y[3,4]       NL             0             0                   0.0833333 
+    53 Y[3,5]       NL             0             0                   0.0416667 
+    54 Y[3,6]       NL             0             0                     12.4917 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 4.97e-14 on row 25
+        max.rel.err = 4.11e-16 on row 25
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.07e-14 on column 33
+        max.rel.err = 4.71e-16 on column 33
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

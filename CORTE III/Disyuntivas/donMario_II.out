@@ -1,0 +1,1210 @@
+Problem:    donMario_II
+Rows:       598
+Columns:    231 (224 integer, 217 binary)
+Non-zeros:  1419
+Status:     INTEGER OPTIMAL
+Objective:  z = 67 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 z                          67                             
+     2 definicionX[1]
+                                   0            -0             = 
+     3 definicionX[2]
+                                   0            -0             = 
+     4 definicionX[3]
+                                   0            -0             = 
+     5 definicionX[4]
+                                   0            -0             = 
+     6 definicionX[5]
+                                   0            -0             = 
+     7 definicionX[6]
+                                   0            -0             = 
+     8 definicionX[7]
+                                   0            -0             = 
+     9 soloSiClienteVaVende[1,1]
+                                   1                           1 
+    10 soloSiClienteVaVende[1,2]
+                                   0                          -0 
+    11 soloSiClienteVaVende[1,3]
+                                   1                           1 
+    12 soloSiClienteVaVende[1,4]
+                                   0                          -0 
+    13 soloSiClienteVaVende[1,5]
+                                   0                          -0 
+    14 soloSiClienteVaVende[1,6]
+                                   0                          -0 
+    15 soloSiClienteVaVende[1,7]
+                                   1                           1 
+    16 soloSiClienteVaVende[2,1]
+                                   0                          -0 
+    17 soloSiClienteVaVende[2,2]
+                                   1                           1 
+    18 soloSiClienteVaVende[2,3]
+                                   0                          -0 
+    19 soloSiClienteVaVende[2,4]
+                                   1                           1 
+    20 soloSiClienteVaVende[2,5]
+                                   0                          -0 
+    21 soloSiClienteVaVende[2,6]
+                                   1                           1 
+    22 soloSiClienteVaVende[2,7]
+                                   1                           1 
+    23 soloSiClienteVaVende[3,1]
+                                   1                           1 
+    24 soloSiClienteVaVende[3,2]
+                                   0                          -0 
+    25 soloSiClienteVaVende[3,3]
+                                   1                           1 
+    26 soloSiClienteVaVende[3,4]
+                                   0                          -0 
+    27 soloSiClienteVaVende[3,5]
+                                   1                           1 
+    28 soloSiClienteVaVende[3,6]
+                                   0                          -0 
+    29 soloSiClienteVaVende[3,7]
+                                   1                           1 
+    30 soloSiClienteVaVende[4,1]
+                                   1                           1 
+    31 soloSiClienteVaVende[4,2]
+                                   0                          -0 
+    32 soloSiClienteVaVende[4,3]
+                                   1                           1 
+    33 soloSiClienteVaVende[4,4]
+                                   1                           1 
+    34 soloSiClienteVaVende[4,5]
+                                   0                          -0 
+    35 soloSiClienteVaVende[4,6]
+                                   1                           1 
+    36 soloSiClienteVaVende[4,7]
+                                   1                           1 
+    37 soloSiClienteVaVende[5,1]
+                                   0                          -0 
+    38 soloSiClienteVaVende[5,2]
+                                   1                           1 
+    39 soloSiClienteVaVende[5,3]
+                                   1                           1 
+    40 soloSiClienteVaVende[5,4]
+                                   1                           1 
+    41 soloSiClienteVaVende[5,5]
+                                   0                           1 
+    42 soloSiClienteVaVende[5,6]
+                                   0                          -0 
+    43 soloSiClienteVaVende[5,7]
+                                   1                           1 
+    44 soloSiClienteVaVende[6,1]
+                                   1                           1 
+    45 soloSiClienteVaVende[6,2]
+                                   0                          -0 
+    46 soloSiClienteVaVende[6,3]
+                                   1                           1 
+    47 soloSiClienteVaVende[6,4]
+                                   1                           1 
+    48 soloSiClienteVaVende[6,5]
+                                   0                          -0 
+    49 soloSiClienteVaVende[6,6]
+                                   1                           1 
+    50 soloSiClienteVaVende[6,7]
+                                   0                          -0 
+    51 soloSiClienteVaVende[7,1]
+                                   0                          -0 
+    52 soloSiClienteVaVende[7,2]
+                                   0                          -0 
+    53 soloSiClienteVaVende[7,3]
+                                   0                           1 
+    54 soloSiClienteVaVende[7,4]
+                                   1                           1 
+    55 soloSiClienteVaVende[7,5]
+                                   1                           1 
+    56 soloSiClienteVaVende[7,6]
+                                   0                          -0 
+    57 soloSiClienteVaVende[7,7]
+                                   0                          -0 
+    58 soloSiClienteVaVende[8,1]
+                                   1                           1 
+    59 soloSiClienteVaVende[8,2]
+                                   1                           1 
+    60 soloSiClienteVaVende[8,3]
+                                   1                           1 
+    61 soloSiClienteVaVende[8,4]
+                                   0                           1 
+    62 soloSiClienteVaVende[8,5]
+                                   0                          -0 
+    63 soloSiClienteVaVende[8,6]
+                                   1                           1 
+    64 soloSiClienteVaVende[8,7]
+                                   0                          -0 
+    65 soloSiClienteVaVende[9,1]
+                                   0                          -0 
+    66 soloSiClienteVaVende[9,2]
+                                   1                           1 
+    67 soloSiClienteVaVende[9,3]
+                                   0                          -0 
+    68 soloSiClienteVaVende[9,4]
+                                   0                          -0 
+    69 soloSiClienteVaVende[9,5]
+                                   1                           1 
+    70 soloSiClienteVaVende[9,6]
+                                   0                          -0 
+    71 soloSiClienteVaVende[9,7]
+                                   1                           1 
+    72 soloSiClienteVaVende[10,1]
+                                   1                           1 
+    73 soloSiClienteVaVende[10,2]
+                                   0                          -0 
+    74 soloSiClienteVaVende[10,3]
+                                   1                           1 
+    75 soloSiClienteVaVende[10,4]
+                                   1                           1 
+    76 soloSiClienteVaVende[10,5]
+                                   0                          -0 
+    77 soloSiClienteVaVende[10,6]
+                                   1                           1 
+    78 soloSiClienteVaVende[10,7]
+                                   1                           1 
+    79 soloSiClienteVaVende[11,1]
+                                   1                           1 
+    80 soloSiClienteVaVende[11,2]
+                                   0                          -0 
+    81 soloSiClienteVaVende[11,3]
+                                   1                           1 
+    82 soloSiClienteVaVende[11,4]
+                                   1                           1 
+    83 soloSiClienteVaVende[11,5]
+                                   0                          -0 
+    84 soloSiClienteVaVende[11,6]
+                                   1                           1 
+    85 soloSiClienteVaVende[11,7]
+                                   0                          -0 
+    86 soloSiClienteVaVende[12,1]
+                                   0                          -0 
+    87 soloSiClienteVaVende[12,2]
+                                   1                           1 
+    88 soloSiClienteVaVende[12,3]
+                                   1                           1 
+    89 soloSiClienteVaVende[12,4]
+                                   1                           1 
+    90 soloSiClienteVaVende[12,5]
+                                   0                           1 
+    91 soloSiClienteVaVende[12,6]
+                                   1                           1 
+    92 soloSiClienteVaVende[12,7]
+                                   0                          -0 
+    93 soloSiClienteVaVende[13,1]
+                                   1                           1 
+    94 soloSiClienteVaVende[13,2]
+                                   1                           1 
+    95 soloSiClienteVaVende[13,3]
+                                   0                          -0 
+    96 soloSiClienteVaVende[13,4]
+                                   0                          -0 
+    97 soloSiClienteVaVende[13,5]
+                                   1                           1 
+    98 soloSiClienteVaVende[13,6]
+                                   1                           1 
+    99 soloSiClienteVaVende[13,7]
+                                   0                          -0 
+   100 soloSiClienteVaVende[14,1]
+                                   1                           1 
+   101 soloSiClienteVaVende[14,2]
+                                   0                          -0 
+   102 soloSiClienteVaVende[14,3]
+                                   1                           1 
+   103 soloSiClienteVaVende[14,4]
+                                   0                          -0 
+   104 soloSiClienteVaVende[14,5]
+                                   1                           1 
+   105 soloSiClienteVaVende[14,6]
+                                   1                           1 
+   106 soloSiClienteVaVende[14,7]
+                                   0                          -0 
+   107 soloSiClienteVaVende[15,1]
+                                   0                          -0 
+   108 soloSiClienteVaVende[15,2]
+                                   1                           1 
+   109 soloSiClienteVaVende[15,3]
+                                   1                           1 
+   110 soloSiClienteVaVende[15,4]
+                                   0                          -0 
+   111 soloSiClienteVaVende[15,5]
+                                   1                           1 
+   112 soloSiClienteVaVende[15,6]
+                                   0                          -0 
+   113 soloSiClienteVaVende[15,7]
+                                   1                           1 
+   114 soloSiClienteVaRegala[1,1]
+                                   0                           1 
+   115 soloSiClienteVaRegala[1,2]
+                                   0                          -0 
+   116 soloSiClienteVaRegala[1,3]
+                                   0                           1 
+   117 soloSiClienteVaRegala[1,4]
+                                   0                          -0 
+   118 soloSiClienteVaRegala[1,5]
+                                   0                          -0 
+   119 soloSiClienteVaRegala[1,6]
+                                   0                          -0 
+   120 soloSiClienteVaRegala[1,7]
+                                   0                           1 
+   121 soloSiClienteVaRegala[2,1]
+                                   0                          -0 
+   122 soloSiClienteVaRegala[2,2]
+                                   0                           1 
+   123 soloSiClienteVaRegala[2,3]
+                                   0                          -0 
+   124 soloSiClienteVaRegala[2,4]
+                                   0                           1 
+   125 soloSiClienteVaRegala[2,5]
+                                   0                          -0 
+   126 soloSiClienteVaRegala[2,6]
+                                   0                           1 
+   127 soloSiClienteVaRegala[2,7]
+                                   0                           1 
+   128 soloSiClienteVaRegala[3,1]
+                                   0                           1 
+   129 soloSiClienteVaRegala[3,2]
+                                   0                          -0 
+   130 soloSiClienteVaRegala[3,3]
+                                   0                           1 
+   131 soloSiClienteVaRegala[3,4]
+                                   0                          -0 
+   132 soloSiClienteVaRegala[3,5]
+                                   0                           1 
+   133 soloSiClienteVaRegala[3,6]
+                                   0                          -0 
+   134 soloSiClienteVaRegala[3,7]
+                                   0                           1 
+   135 soloSiClienteVaRegala[4,1]
+                                   0                           1 
+   136 soloSiClienteVaRegala[4,2]
+                                   0                          -0 
+   137 soloSiClienteVaRegala[4,3]
+                                   0                           1 
+   138 soloSiClienteVaRegala[4,4]
+                                   0                           1 
+   139 soloSiClienteVaRegala[4,5]
+                                   0                          -0 
+   140 soloSiClienteVaRegala[4,6]
+                                   0                           1 
+   141 soloSiClienteVaRegala[4,7]
+                                   0                           1 
+   142 soloSiClienteVaRegala[5,1]
+                                   0                          -0 
+   143 soloSiClienteVaRegala[5,2]
+                                   0                           1 
+   144 soloSiClienteVaRegala[5,3]
+                                   0                           1 
+   145 soloSiClienteVaRegala[5,4]
+                                   0                           1 
+   146 soloSiClienteVaRegala[5,5]
+                                   1                           1 
+   147 soloSiClienteVaRegala[5,6]
+                                   0                          -0 
+   148 soloSiClienteVaRegala[5,7]
+                                   0                           1 
+   149 soloSiClienteVaRegala[6,1]
+                                   0                           1 
+   150 soloSiClienteVaRegala[6,2]
+                                   0                          -0 
+   151 soloSiClienteVaRegala[6,3]
+                                   0                           1 
+   152 soloSiClienteVaRegala[6,4]
+                                   0                           1 
+   153 soloSiClienteVaRegala[6,5]
+                                   0                          -0 
+   154 soloSiClienteVaRegala[6,6]
+                                   0                           1 
+   155 soloSiClienteVaRegala[6,7]
+                                   0                          -0 
+   156 soloSiClienteVaRegala[7,1]
+                                   0                          -0 
+   157 soloSiClienteVaRegala[7,2]
+                                   0                          -0 
+   158 soloSiClienteVaRegala[7,3]
+                                   0                           1 
+   159 soloSiClienteVaRegala[7,4]
+                                   0                           1 
+   160 soloSiClienteVaRegala[7,5]
+                                   0                           1 
+   161 soloSiClienteVaRegala[7,6]
+                                   0                          -0 
+   162 soloSiClienteVaRegala[7,7]
+                                   0                          -0 
+   163 soloSiClienteVaRegala[8,1]
+                                   0                           1 
+   164 soloSiClienteVaRegala[8,2]
+                                   0                           1 
+   165 soloSiClienteVaRegala[8,3]
+                                   0                           1 
+   166 soloSiClienteVaRegala[8,4]
+                                   1                           1 
+   167 soloSiClienteVaRegala[8,5]
+                                   0                          -0 
+   168 soloSiClienteVaRegala[8,6]
+                                   0                           1 
+   169 soloSiClienteVaRegala[8,7]
+                                   0                          -0 
+   170 soloSiClienteVaRegala[9,1]
+                                   0                          -0 
+   171 soloSiClienteVaRegala[9,2]
+                                   0                           1 
+   172 soloSiClienteVaRegala[9,3]
+                                   0                          -0 
+   173 soloSiClienteVaRegala[9,4]
+                                   0                          -0 
+   174 soloSiClienteVaRegala[9,5]
+                                   0                           1 
+   175 soloSiClienteVaRegala[9,6]
+                                   0                          -0 
+   176 soloSiClienteVaRegala[9,7]
+                                   0                           1 
+   177 soloSiClienteVaRegala[10,1]
+                                   0                           1 
+   178 soloSiClienteVaRegala[10,2]
+                                   0                          -0 
+   179 soloSiClienteVaRegala[10,3]
+                                   0                           1 
+   180 soloSiClienteVaRegala[10,4]
+                                   0                           1 
+   181 soloSiClienteVaRegala[10,5]
+                                   0                          -0 
+   182 soloSiClienteVaRegala[10,6]
+                                   0                           1 
+   183 soloSiClienteVaRegala[10,7]
+                                   0                           1 
+   184 soloSiClienteVaRegala[11,1]
+                                   0                           1 
+   185 soloSiClienteVaRegala[11,2]
+                                   0                          -0 
+   186 soloSiClienteVaRegala[11,3]
+                                   0                           1 
+   187 soloSiClienteVaRegala[11,4]
+                                   0                           1 
+   188 soloSiClienteVaRegala[11,5]
+                                   0                          -0 
+   189 soloSiClienteVaRegala[11,6]
+                                   0                           1 
+   190 soloSiClienteVaRegala[11,7]
+                                   0                          -0 
+   191 soloSiClienteVaRegala[12,1]
+                                   0                          -0 
+   192 soloSiClienteVaRegala[12,2]
+                                   0                           1 
+   193 soloSiClienteVaRegala[12,3]
+                                   0                           1 
+   194 soloSiClienteVaRegala[12,4]
+                                   0                           1 
+   195 soloSiClienteVaRegala[12,5]
+                                   1                           1 
+   196 soloSiClienteVaRegala[12,6]
+                                   0                           1 
+   197 soloSiClienteVaRegala[12,7]
+                                   0                          -0 
+   198 soloSiClienteVaRegala[13,1]
+                                   0                           1 
+   199 soloSiClienteVaRegala[13,2]
+                                   0                           1 
+   200 soloSiClienteVaRegala[13,3]
+                                   0                          -0 
+   201 soloSiClienteVaRegala[13,4]
+                                   0                          -0 
+   202 soloSiClienteVaRegala[13,5]
+                                   0                           1 
+   203 soloSiClienteVaRegala[13,6]
+                                   0                           1 
+   204 soloSiClienteVaRegala[13,7]
+                                   0                          -0 
+   205 soloSiClienteVaRegala[14,1]
+                                   0                           1 
+   206 soloSiClienteVaRegala[14,2]
+                                   0                          -0 
+   207 soloSiClienteVaRegala[14,3]
+                                   0                           1 
+   208 soloSiClienteVaRegala[14,4]
+                                   0                          -0 
+   209 soloSiClienteVaRegala[14,5]
+                                   0                           1 
+   210 soloSiClienteVaRegala[14,6]
+                                   0                           1 
+   211 soloSiClienteVaRegala[14,7]
+                                   0                          -0 
+   212 soloSiClienteVaRegala[15,1]
+                                   0                          -0 
+   213 soloSiClienteVaRegala[15,2]
+                                   0                           1 
+   214 soloSiClienteVaRegala[15,3]
+                                   0                           1 
+   215 soloSiClienteVaRegala[15,4]
+                                   0                          -0 
+   216 soloSiClienteVaRegala[15,5]
+                                   0                           1 
+   217 soloSiClienteVaRegala[15,6]
+                                   0                          -0 
+   218 soloSiClienteVaRegala[15,7]
+                                   0                           1 
+   219 noDobleEntrega[1,1]
+                                   1                           1 
+   220 noDobleEntrega[1,2]
+                                   0                           1 
+   221 noDobleEntrega[1,3]
+                                   1                           1 
+   222 noDobleEntrega[1,4]
+                                   0                           1 
+   223 noDobleEntrega[1,5]
+                                   0                           1 
+   224 noDobleEntrega[1,6]
+                                   0                           1 
+   225 noDobleEntrega[1,7]
+                                   1                           1 
+   226 noDobleEntrega[2,1]
+                                   0                           1 
+   227 noDobleEntrega[2,2]
+                                   1                           1 
+   228 noDobleEntrega[2,3]
+                                   0                           1 
+   229 noDobleEntrega[2,4]
+                                   1                           1 
+   230 noDobleEntrega[2,5]
+                                   0                           1 
+   231 noDobleEntrega[2,6]
+                                   1                           1 
+   232 noDobleEntrega[2,7]
+                                   1                           1 
+   233 noDobleEntrega[3,1]
+                                   1                           1 
+   234 noDobleEntrega[3,2]
+                                   0                           1 
+   235 noDobleEntrega[3,3]
+                                   1                           1 
+   236 noDobleEntrega[3,4]
+                                   0                           1 
+   237 noDobleEntrega[3,5]
+                                   1                           1 
+   238 noDobleEntrega[3,6]
+                                   0                           1 
+   239 noDobleEntrega[3,7]
+                                   1                           1 
+   240 noDobleEntrega[4,1]
+                                   1                           1 
+   241 noDobleEntrega[4,2]
+                                   0                           1 
+   242 noDobleEntrega[4,3]
+                                   1                           1 
+   243 noDobleEntrega[4,4]
+                                   1                           1 
+   244 noDobleEntrega[4,5]
+                                   0                           1 
+   245 noDobleEntrega[4,6]
+                                   1                           1 
+   246 noDobleEntrega[4,7]
+                                   1                           1 
+   247 noDobleEntrega[5,1]
+                                   0                           1 
+   248 noDobleEntrega[5,2]
+                                   1                           1 
+   249 noDobleEntrega[5,3]
+                                   1                           1 
+   250 noDobleEntrega[5,4]
+                                   1                           1 
+   251 noDobleEntrega[5,5]
+                                   1                           1 
+   252 noDobleEntrega[5,6]
+                                   0                           1 
+   253 noDobleEntrega[5,7]
+                                   1                           1 
+   254 noDobleEntrega[6,1]
+                                   1                           1 
+   255 noDobleEntrega[6,2]
+                                   0                           1 
+   256 noDobleEntrega[6,3]
+                                   1                           1 
+   257 noDobleEntrega[6,4]
+                                   1                           1 
+   258 noDobleEntrega[6,5]
+                                   0                           1 
+   259 noDobleEntrega[6,6]
+                                   1                           1 
+   260 noDobleEntrega[6,7]
+                                   0                           1 
+   261 noDobleEntrega[7,1]
+                                   0                           1 
+   262 noDobleEntrega[7,2]
+                                   0                           1 
+   263 noDobleEntrega[7,3]
+                                   0                           1 
+   264 noDobleEntrega[7,4]
+                                   1                           1 
+   265 noDobleEntrega[7,5]
+                                   1                           1 
+   266 noDobleEntrega[7,6]
+                                   0                           1 
+   267 noDobleEntrega[7,7]
+                                   0                           1 
+   268 noDobleEntrega[8,1]
+                                   1                           1 
+   269 noDobleEntrega[8,2]
+                                   1                           1 
+   270 noDobleEntrega[8,3]
+                                   1                           1 
+   271 noDobleEntrega[8,4]
+                                   1                           1 
+   272 noDobleEntrega[8,5]
+                                   0                           1 
+   273 noDobleEntrega[8,6]
+                                   1                           1 
+   274 noDobleEntrega[8,7]
+                                   0                           1 
+   275 noDobleEntrega[9,1]
+                                   0                           1 
+   276 noDobleEntrega[9,2]
+                                   1                           1 
+   277 noDobleEntrega[9,3]
+                                   0                           1 
+   278 noDobleEntrega[9,4]
+                                   0                           1 
+   279 noDobleEntrega[9,5]
+                                   1                           1 
+   280 noDobleEntrega[9,6]
+                                   0                           1 
+   281 noDobleEntrega[9,7]
+                                   1                           1 
+   282 noDobleEntrega[10,1]
+                                   1                           1 
+   283 noDobleEntrega[10,2]
+                                   0                           1 
+   284 noDobleEntrega[10,3]
+                                   1                           1 
+   285 noDobleEntrega[10,4]
+                                   1                           1 
+   286 noDobleEntrega[10,5]
+                                   0                           1 
+   287 noDobleEntrega[10,6]
+                                   1                           1 
+   288 noDobleEntrega[10,7]
+                                   1                           1 
+   289 noDobleEntrega[11,1]
+                                   1                           1 
+   290 noDobleEntrega[11,2]
+                                   0                           1 
+   291 noDobleEntrega[11,3]
+                                   1                           1 
+   292 noDobleEntrega[11,4]
+                                   1                           1 
+   293 noDobleEntrega[11,5]
+                                   0                           1 
+   294 noDobleEntrega[11,6]
+                                   1                           1 
+   295 noDobleEntrega[11,7]
+                                   0                           1 
+   296 noDobleEntrega[12,1]
+                                   0                           1 
+   297 noDobleEntrega[12,2]
+                                   1                           1 
+   298 noDobleEntrega[12,3]
+                                   1                           1 
+   299 noDobleEntrega[12,4]
+                                   1                           1 
+   300 noDobleEntrega[12,5]
+                                   1                           1 
+   301 noDobleEntrega[12,6]
+                                   1                           1 
+   302 noDobleEntrega[12,7]
+                                   0                           1 
+   303 noDobleEntrega[13,1]
+                                   1                           1 
+   304 noDobleEntrega[13,2]
+                                   1                           1 
+   305 noDobleEntrega[13,3]
+                                   0                           1 
+   306 noDobleEntrega[13,4]
+                                   0                           1 
+   307 noDobleEntrega[13,5]
+                                   1                           1 
+   308 noDobleEntrega[13,6]
+                                   1                           1 
+   309 noDobleEntrega[13,7]
+                                   0                           1 
+   310 noDobleEntrega[14,1]
+                                   1                           1 
+   311 noDobleEntrega[14,2]
+                                   0                           1 
+   312 noDobleEntrega[14,3]
+                                   1                           1 
+   313 noDobleEntrega[14,4]
+                                   0                           1 
+   314 noDobleEntrega[14,5]
+                                   1                           1 
+   315 noDobleEntrega[14,6]
+                                   1                           1 
+   316 noDobleEntrega[14,7]
+                                   0                           1 
+   317 noDobleEntrega[15,1]
+                                   0                           1 
+   318 noDobleEntrega[15,2]
+                                   1                           1 
+   319 noDobleEntrega[15,3]
+                                   1                           1 
+   320 noDobleEntrega[15,4]
+                                   0                           1 
+   321 noDobleEntrega[15,5]
+                                   1                           1 
+   322 noDobleEntrega[15,6]
+                                   0                           1 
+   323 noDobleEntrega[15,7]
+                                   1                           1 
+   324 promo1[1,4]                -1                          -0 
+   325 promo1[1,5]                 0                          -0 
+   326 promo1[1,6]                 0                          -0 
+   327 promo1[1,7]                 0                          -0 
+   328 promo1[2,4]                 0                          -0 
+   329 promo1[2,5]                -1                          -0 
+   330 promo1[2,6]                 0                          -0 
+   331 promo1[2,7]                -1                          -0 
+   332 promo1[3,4]                -1                          -0 
+   333 promo1[3,5]                 0                          -0 
+   334 promo1[3,6]                -1                          -0 
+   335 promo1[3,7]                 0                          -0 
+   336 promo1[4,4]                -1                          -0 
+   337 promo1[4,5]                -1                          -0 
+   338 promo1[4,6]                 0                          -0 
+   339 promo1[4,7]                -1                          -0 
+   340 promo1[5,4]                -1                          -0 
+   341 promo1[5,5]                 0                          -0 
+   342 promo1[5,6]                 0                          -0 
+   343 promo1[5,7]                 0                          -0 
+   344 promo1[6,4]                -1                          -0 
+   345 promo1[6,5]                -1                          -0 
+   346 promo1[6,6]                 0                          -0 
+   347 promo1[6,7]                -1                          -0 
+   348 promo1[7,4]                 0                          -0 
+   349 promo1[7,5]                -1                          -0 
+   350 promo1[7,6]                -1                          -0 
+   351 promo1[7,7]                 0                          -0 
+   352 promo1[8,4]                 0                          -0 
+   353 promo1[8,5]                 0                          -0 
+   354 promo1[8,6]                 0                          -0 
+   355 promo1[8,7]                -1                          -0 
+   356 promo1[9,4]                 0                          -0 
+   357 promo1[9,5]                 0                          -0 
+   358 promo1[9,6]                -1                          -0 
+   359 promo1[9,7]                 0                          -0 
+   360 promo1[10,4]               -1                          -0 
+   361 promo1[10,5]               -1                          -0 
+   362 promo1[10,6]                0                          -0 
+   363 promo1[10,7]               -1                          -0 
+   364 promo1[11,4]               -1                          -0 
+   365 promo1[11,5]               -1                          -0 
+   366 promo1[11,6]                0                          -0 
+   367 promo1[11,7]               -1                          -0 
+   368 promo1[12,4]               -1                          -0 
+   369 promo1[12,5]                0                          -0 
+   370 promo1[12,6]                0                          -0 
+   371 promo1[12,7]               -1                          -0 
+   372 promo1[13,4]                0                          -0 
+   373 promo1[13,5]                0                          -0 
+   374 promo1[13,6]               -1                          -0 
+   375 promo1[13,7]               -1                          -0 
+   376 promo1[14,4]               -1                          -0 
+   377 promo1[14,5]                0                          -0 
+   378 promo1[14,6]               -1                          -0 
+   379 promo1[14,7]               -1                          -0 
+   380 promo1[15,4]               -1                          -0 
+   381 promo1[15,5]                0                          -0 
+   382 promo1[15,6]               -1                          -0 
+   383 promo1[15,7]                0                          -0 
+   384 promo2[1,4]                 0                          -0 
+   385 promo2[1,5]                -1                          -0 
+   386 promo2[1,6]                 0                          -0 
+   387 promo2[1,7]                 0                          -0 
+   388 promo2[2,4]                -1                          -0 
+   389 promo2[2,5]                 0                          -0 
+   390 promo2[2,6]                -1                          -0 
+   391 promo2[2,7]                 0                          -0 
+   392 promo2[3,4]                 0                          -0 
+   393 promo2[3,5]                -1                          -0 
+   394 promo2[3,6]                 0                          -0 
+   395 promo2[3,7]                -1                          -0 
+   396 promo2[4,4]                 0                          -0 
+   397 promo2[4,5]                -1                          -0 
+   398 promo2[4,6]                -1                          -0 
+   399 promo2[4,7]                 0                          -0 
+   400 promo2[5,4]                -1                          -0 
+   401 promo2[5,5]                 0                          -0 
+   402 promo2[5,6]                -1                          -0 
+   403 promo2[5,7]                 0                          -0 
+   404 promo2[6,4]                 0                          -0 
+   405 promo2[6,5]                -1                          -0 
+   406 promo2[6,6]                -1                          -0 
+   407 promo2[6,7]                 0                          -0 
+   408 promo2[7,4]                 0                          -0 
+   409 promo2[7,5]                 0                          -0 
+   410 promo2[7,6]                -1                          -0 
+   411 promo2[7,7]                -1                          -0 
+   412 promo2[8,4]                 0                          -0 
+   413 promo2[8,5]                -1                          -0 
+   414 promo2[8,6]                 0                          -0 
+   415 promo2[8,7]                 0                          -0 
+   416 promo2[9,4]                -1                          -0 
+   417 promo2[9,5]                 0                          -0 
+   418 promo2[9,6]                 0                          -0 
+   419 promo2[9,7]                -1                          -0 
+   420 promo2[10,4]                0                          -0 
+   421 promo2[10,5]               -1                          -0 
+   422 promo2[10,6]               -1                          -0 
+   423 promo2[10,7]                0                          -0 
+   424 promo2[11,4]                0                          -0 
+   425 promo2[11,5]               -1                          -0 
+   426 promo2[11,6]               -1                          -0 
+   427 promo2[11,7]                0                          -0 
+   428 promo2[12,4]               -1                          -0 
+   429 promo2[12,5]                0                          -0 
+   430 promo2[12,6]               -1                          -0 
+   431 promo2[12,7]                0                          -0 
+   432 promo2[13,4]               -1                          -0 
+   433 promo2[13,5]                0                          -0 
+   434 promo2[13,6]                0                          -0 
+   435 promo2[13,7]               -1                          -0 
+   436 promo2[14,4]                0                          -0 
+   437 promo2[14,5]               -1                          -0 
+   438 promo2[14,6]                0                          -0 
+   439 promo2[14,7]               -1                          -0 
+   440 promo2[15,4]               -1                          -0 
+   441 promo2[15,5]               -1                          -0 
+   442 promo2[15,6]                0                          -0 
+   443 promo2[15,7]               -1                          -0 
+   444 promo3[1,4]                -1                          -0 
+   445 promo3[1,5]                 0                          -0 
+   446 promo3[1,6]                -1                          -0 
+   447 promo3[1,7]                 0                          -0 
+   448 promo3[2,4]                 0                          -0 
+   449 promo3[2,5]                -1                          -0 
+   450 promo3[2,6]                 0                          -0 
+   451 promo3[2,7]                -1                          -0 
+   452 promo3[3,4]                -1                          -0 
+   453 promo3[3,5]                 0                          -0 
+   454 promo3[3,6]                -1                          -0 
+   455 promo3[3,7]                 0                          -0 
+   456 promo3[4,4]                -1                          -0 
+   457 promo3[4,5]                 0                          -0 
+   458 promo3[4,6]                -1                          -0 
+   459 promo3[4,7]                -1                          -0 
+   460 promo3[5,4]                 0                          -0 
+   461 promo3[5,5]                 0                          -0 
+   462 promo3[5,6]                -1                          -0 
+   463 promo3[5,7]                -1                          -0 
+   464 promo3[6,4]                -1                          -0 
+   465 promo3[6,5]                 0                          -0 
+   466 promo3[6,6]                -1                          -0 
+   467 promo3[6,7]                -1                          -0 
+   468 promo3[7,4]                 0                          -0 
+   469 promo3[7,5]                 0                          -0 
+   470 promo3[7,6]                 0                          -0 
+   471 promo3[7,7]                -1                          -0 
+   472 promo3[8,4]                 0                          -0 
+   473 promo3[8,5]                -1                          -0 
+   474 promo3[8,6]                -1                          -0 
+   475 promo3[8,7]                 0                          -0 
+   476 promo3[9,4]                 0                          -0 
+   477 promo3[9,5]                -1                          -0 
+   478 promo3[9,6]                 0                          -0 
+   479 promo3[9,7]                 0                          -0 
+   480 promo3[10,4]               -1                          -0 
+   481 promo3[10,5]                0                          -0 
+   482 promo3[10,6]               -1                          -0 
+   483 promo3[10,7]               -1                          -0 
+   484 promo3[11,4]               -1                          -0 
+   485 promo3[11,5]                0                          -0 
+   486 promo3[11,6]               -1                          -0 
+   487 promo3[11,7]               -1                          -0 
+   488 promo3[12,4]                0                          -0 
+   489 promo3[12,5]                0                          -0 
+   490 promo3[12,6]               -1                          -0 
+   491 promo3[12,7]               -1                          -0 
+   492 promo3[13,4]               -1                          -0 
+   493 promo3[13,5]               -1                          -0 
+   494 promo3[13,6]                0                          -0 
+   495 promo3[13,7]                0                          -0 
+   496 promo3[14,4]               -1                          -0 
+   497 promo3[14,5]                0                          -0 
+   498 promo3[14,6]               -1                          -0 
+   499 promo3[14,7]                0                          -0 
+   500 promo3[15,4]                0                          -0 
+   501 promo3[15,5]               -1                          -0 
+   502 promo3[15,6]               -1                          -0 
+   503 promo3[15,7]                0                          -0 
+   504 promo4[1,4]                -2            -2               
+   505 promo4[1,5]                -1            -2               
+   506 promo4[1,6]                -1            -2               
+   507 promo4[1,7]                 0            -2               
+   508 promo4[2,4]                -1            -2               
+   509 promo4[2,5]                -2            -2               
+   510 promo4[2,6]                -1            -2               
+   511 promo4[2,7]                -2            -2               
+   512 promo4[3,4]                -2            -2               
+   513 promo4[3,5]                -1            -2               
+   514 promo4[3,6]                -2            -2               
+   515 promo4[3,7]                -1            -2               
+   516 promo4[4,4]                -2            -2               
+   517 promo4[4,5]                -2            -2               
+   518 promo4[4,6]                -2            -2               
+   519 promo4[4,7]                -2            -2               
+   520 promo4[5,4]                -2            -2               
+   521 promo4[5,5]                -2            -2               
+   522 promo4[5,6]                -2            -2               
+   523 promo4[5,7]                -1            -2               
+   524 promo4[6,4]                -2            -2               
+   525 promo4[6,5]                -2            -2               
+   526 promo4[6,6]                -2            -2               
+   527 promo4[6,7]                -2            -2               
+   528 promo4[7,4]                 0            -2               
+   529 promo4[7,5]                -1            -2               
+   530 promo4[7,6]                -2            -2               
+   531 promo4[7,7]                -2            -2               
+   532 promo4[8,4]                -2            -2               
+   533 promo4[8,5]                -2            -2               
+   534 promo4[8,6]                -1            -2               
+   535 promo4[8,7]                -1            -2               
+   536 promo4[9,4]                -1            -2               
+   537 promo4[9,5]                -1            -2               
+   538 promo4[9,6]                -1            -2               
+   539 promo4[9,7]                -1            -2               
+   540 promo4[10,4]               -2            -2               
+   541 promo4[10,5]               -2            -2               
+   542 promo4[10,6]               -2            -2               
+   543 promo4[10,7]               -2            -2               
+   544 promo4[11,4]               -2            -2               
+   545 promo4[11,5]               -2            -2               
+   546 promo4[11,6]               -2            -2               
+   547 promo4[11,7]               -2            -2               
+   548 promo4[12,4]               -2            -2               
+   549 promo4[12,5]               -2            -2               
+   550 promo4[12,6]               -2            -2               
+   551 promo4[12,7]               -2            -2               
+   552 promo4[13,4]               -2            -2               
+   553 promo4[13,5]               -1            -2               
+   554 promo4[13,6]               -1            -2               
+   555 promo4[13,7]               -2            -2               
+   556 promo4[14,4]               -2            -2               
+   557 promo4[14,5]               -1            -2               
+   558 promo4[14,6]               -2            -2               
+   559 promo4[14,7]               -2            -2               
+   560 promo4[15,4]               -2            -2               
+   561 promo4[15,5]               -2            -2               
+   562 promo4[15,6]               -2            -2               
+   563 promo4[15,7]               -1            -2               
+   564 cobertura90porciento[1]
+                                   9           8.1               
+   565 cobertura90porciento[2]
+                                   7           6.3               
+   566 cobertura90porciento[3]
+                                  11          10.8               
+   567 cobertura90porciento[4]
+                                   9           8.1               
+   568 cobertura90porciento[5]
+                                   8           7.2               
+   569 cobertura90porciento[6]
+                                   9           8.1               
+   570 cobertura90porciento[7]
+                                   8           7.2               
+   571 variableEesUnidExtra[1]
+                                  -4            -4             = 
+   572 variableEesUnidExtra[2]
+                                  -4            -4             = 
+   573 variableEesUnidExtra[3]
+                                  -4            -4             = 
+   574 variableEesUnidExtra[4]
+                                  -4            -4             = 
+   575 variableEesUnidExtra[5]
+                                  -4            -4             = 
+   576 variableEesUnidExtra[6]
+                                  -4            -4             = 
+   577 variableEesUnidExtra[7]
+                                  -4            -4             = 
+   578 noSePagaFleteXmenorW[1]
+                               -8991                           4 
+   579 noSePagaFleteXmenorW[2]
+                               -8993                           4 
+   580 noSePagaFleteXmenorW[3]
+                               -8989                           4 
+   581 noSePagaFleteXmenorW[4]
+                               -8991                           4 
+   582 noSePagaFleteXmenorW[5]
+                               -8992                           4 
+   583 noSePagaFleteXmenorW[6]
+                               -8991                           4 
+   584 noSePagaFleteXmenorW[7]
+                               -8992                           4 
+   585 siSePagaFleteXmayorW[1]
+                               -8991         -8995               
+   586 siSePagaFleteXmayorW[2]
+                               -8993         -8995               
+   587 siSePagaFleteXmayorW[3]
+                               -8989         -8995               
+   588 siSePagaFleteXmayorW[4]
+                               -8991         -8995               
+   589 siSePagaFleteXmayorW[5]
+                               -8992         -8995               
+   590 siSePagaFleteXmayorW[6]
+                               -8991         -8995               
+   591 siSePagaFleteXmayorW[7]
+                               -8992         -8995               
+   592 naturalidadUnidExtra[1]
+                                   5            -0               
+   593 naturalidadUnidExtra[2]
+                                   3            -0               
+   594 naturalidadUnidExtra[3]
+                                   7            -0               
+   595 naturalidadUnidExtra[4]
+                                   5            -0               
+   596 naturalidadUnidExtra[5]
+                                   4            -0               
+   597 naturalidadUnidExtra[6]
+                                   5            -0               
+   598 naturalidadUnidExtra[7]
+                                   4            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 h[1,1]       *              1             0             1 
+     2 h[2,1]       *              0             0             1 
+     3 h[3,1]       *              1             0             1 
+     4 h[4,1]       *              1             0             1 
+     5 h[5,1]       *              0             0             1 
+     6 h[6,1]       *              1             0             1 
+     7 h[7,1]       *              0             0             1 
+     8 h[8,1]       *              1             0             1 
+     9 h[9,1]       *              0             0             1 
+    10 h[10,1]      *              1             0             1 
+    11 h[11,1]      *              1             0             1 
+    12 h[12,1]      *              0             0             1 
+    13 h[13,1]      *              1             0             1 
+    14 h[14,1]      *              1             0             1 
+    15 h[15,1]      *              0             0             1 
+    16 h[1,2]       *              0             0             1 
+    17 h[2,2]       *              1             0             1 
+    18 h[3,2]       *              0             0             1 
+    19 h[4,2]       *              0             0             1 
+    20 h[5,2]       *              1             0             1 
+    21 h[6,2]       *              0             0             1 
+    22 h[7,2]       *              0             0             1 
+    23 h[8,2]       *              1             0             1 
+    24 h[9,2]       *              1             0             1 
+    25 h[10,2]      *              0             0             1 
+    26 h[11,2]      *              0             0             1 
+    27 h[12,2]      *              1             0             1 
+    28 h[13,2]      *              1             0             1 
+    29 h[14,2]      *              0             0             1 
+    30 h[15,2]      *              1             0             1 
+    31 h[1,3]       *              1             0             1 
+    32 h[2,3]       *              0             0             1 
+    33 h[3,3]       *              1             0             1 
+    34 h[4,3]       *              1             0             1 
+    35 h[5,3]       *              1             0             1 
+    36 h[6,3]       *              1             0             1 
+    37 h[7,3]       *              0             0             1 
+    38 h[8,3]       *              1             0             1 
+    39 h[9,3]       *              0             0             1 
+    40 h[10,3]      *              1             0             1 
+    41 h[11,3]      *              1             0             1 
+    42 h[12,3]      *              1             0             1 
+    43 h[13,3]      *              0             0             1 
+    44 h[14,3]      *              1             0             1 
+    45 h[15,3]      *              1             0             1 
+    46 h[1,4]       *              0             0             1 
+    47 h[2,4]       *              1             0             1 
+    48 h[3,4]       *              0             0             1 
+    49 h[4,4]       *              1             0             1 
+    50 h[5,4]       *              1             0             1 
+    51 h[6,4]       *              1             0             1 
+    52 h[7,4]       *              1             0             1 
+    53 h[8,4]       *              0             0             1 
+    54 h[9,4]       *              0             0             1 
+    55 h[10,4]      *              1             0             1 
+    56 h[11,4]      *              1             0             1 
+    57 h[12,4]      *              1             0             1 
+    58 h[13,4]      *              0             0             1 
+    59 h[14,4]      *              0             0             1 
+    60 h[15,4]      *              0             0             1 
+    61 h[1,5]       *              0             0             1 
+    62 h[2,5]       *              0             0             1 
+    63 h[3,5]       *              1             0             1 
+    64 h[4,5]       *              0             0             1 
+    65 h[5,5]       *              0             0             1 
+    66 h[6,5]       *              0             0             1 
+    67 h[7,5]       *              1             0             1 
+    68 h[8,5]       *              0             0             1 
+    69 h[9,5]       *              1             0             1 
+    70 h[10,5]      *              0             0             1 
+    71 h[11,5]      *              0             0             1 
+    72 h[12,5]      *              0             0             1 
+    73 h[13,5]      *              1             0             1 
+    74 h[14,5]      *              1             0             1 
+    75 h[15,5]      *              1             0             1 
+    76 h[1,6]       *              0             0             1 
+    77 h[2,6]       *              1             0             1 
+    78 h[3,6]       *              0             0             1 
+    79 h[4,6]       *              1             0             1 
+    80 h[5,6]       *              0             0             1 
+    81 h[6,6]       *              1             0             1 
+    82 h[7,6]       *              0             0             1 
+    83 h[8,6]       *              1             0             1 
+    84 h[9,6]       *              0             0             1 
+    85 h[10,6]      *              1             0             1 
+    86 h[11,6]      *              1             0             1 
+    87 h[12,6]      *              1             0             1 
+    88 h[13,6]      *              1             0             1 
+    89 h[14,6]      *              1             0             1 
+    90 h[15,6]      *              0             0             1 
+    91 h[1,7]       *              1             0             1 
+    92 h[2,7]       *              1             0             1 
+    93 h[3,7]       *              1             0             1 
+    94 h[4,7]       *              1             0             1 
+    95 h[5,7]       *              1             0             1 
+    96 h[6,7]       *              0             0             1 
+    97 h[7,7]       *              0             0             1 
+    98 h[8,7]       *              0             0             1 
+    99 h[9,7]       *              1             0             1 
+   100 h[10,7]      *              1             0             1 
+   101 h[11,7]      *              0             0             1 
+   102 h[12,7]      *              0             0             1 
+   103 h[13,7]      *              0             0             1 
+   104 h[14,7]      *              0             0             1 
+   105 h[15,7]      *              1             0             1 
+   106 y[1,1]       *              0             0             1 
+   107 y[2,1]       *              0             0             1 
+   108 y[3,1]       *              0             0             1 
+   109 y[4,1]       *              0             0             1 
+   110 y[5,1]       *              0             0             1 
+   111 y[6,1]       *              0             0             1 
+   112 y[7,1]       *              0             0             1 
+   113 y[8,1]       *              0             0             1 
+   114 y[9,1]       *              0             0             1 
+   115 y[10,1]      *              0             0             1 
+   116 y[11,1]      *              0             0             1 
+   117 y[12,1]      *              0             0             1 
+   118 y[13,1]      *              0             0             1 
+   119 y[14,1]      *              0             0             1 
+   120 y[15,1]      *              0             0             1 
+   121 y[1,2]       *              0             0             1 
+   122 y[2,2]       *              0             0             1 
+   123 y[3,2]       *              0             0             1 
+   124 y[4,2]       *              0             0             1 
+   125 y[5,2]       *              0             0             1 
+   126 y[6,2]       *              0             0             1 
+   127 y[7,2]       *              0             0             1 
+   128 y[8,2]       *              0             0             1 
+   129 y[9,2]       *              0             0             1 
+   130 y[10,2]      *              0             0             1 
+   131 y[11,2]      *              0             0             1 
+   132 y[12,2]      *              0             0             1 
+   133 y[13,2]      *              0             0             1 
+   134 y[14,2]      *              0             0             1 
+   135 y[15,2]      *              0             0             1 
+   136 y[1,3]       *              0             0             1 
+   137 y[2,3]       *              0             0             1 
+   138 y[3,3]       *              0             0             1 
+   139 y[4,3]       *              0             0             1 
+   140 y[5,3]       *              0             0             1 
+   141 y[6,3]       *              0             0             1 
+   142 y[7,3]       *              0             0             1 
+   143 y[8,3]       *              0             0             1 
+   144 y[9,3]       *              0             0             1 
+   145 y[10,3]      *              0             0             1 
+   146 y[11,3]      *              0             0             1 
+   147 y[12,3]      *              0             0             1 
+   148 y[13,3]      *              0             0             1 
+   149 y[14,3]      *              0             0             1 
+   150 y[15,3]      *              0             0             1 
+   151 y[1,4]       *              0             0             1 
+   152 y[2,4]       *              0             0             1 
+   153 y[3,4]       *              0             0             1 
+   154 y[4,4]       *              0             0             1 
+   155 y[5,4]       *              0             0             1 
+   156 y[6,4]       *              0             0             1 
+   157 y[7,4]       *              0             0             1 
+   158 y[8,4]       *              1             0             1 
+   159 y[9,4]       *              0             0             1 
+   160 y[10,4]      *              0             0             1 
+   161 y[11,4]      *              0             0             1 
+   162 y[12,4]      *              0             0             1 
+   163 y[13,4]      *              0             0             1 
+   164 y[14,4]      *              0             0             1 
+   165 y[15,4]      *              0             0             1 
+   166 y[1,5]       *              0             0             1 
+   167 y[2,5]       *              0             0             1 
+   168 y[3,5]       *              0             0             1 
+   169 y[4,5]       *              0             0             1 
+   170 y[5,5]       *              1             0             1 
+   171 y[6,5]       *              0             0             1 
+   172 y[7,5]       *              0             0             1 
+   173 y[8,5]       *              0             0             1 
+   174 y[9,5]       *              0             0             1 
+   175 y[10,5]      *              0             0             1 
+   176 y[11,5]      *              0             0             1 
+   177 y[12,5]      *              1             0             1 
+   178 y[13,5]      *              0             0             1 
+   179 y[14,5]      *              0             0             1 
+   180 y[15,5]      *              0             0             1 
+   181 y[1,6]       *              0             0             1 
+   182 y[2,6]       *              0             0             1 
+   183 y[3,6]       *              0             0             1 
+   184 y[4,6]       *              0             0             1 
+   185 y[5,6]       *              0             0             1 
+   186 y[6,6]       *              0             0             1 
+   187 y[7,6]       *              0             0             1 
+   188 y[8,6]       *              0             0             1 
+   189 y[9,6]       *              0             0             1 
+   190 y[10,6]      *              0             0             1 
+   191 y[11,6]      *              0             0             1 
+   192 y[12,6]      *              0             0             1 
+   193 y[13,6]      *              0             0             1 
+   194 y[14,6]      *              0             0             1 
+   195 y[15,6]      *              0             0             1 
+   196 y[1,7]       *              0             0             1 
+   197 y[2,7]       *              0             0             1 
+   198 y[3,7]       *              0             0             1 
+   199 y[4,7]       *              0             0             1 
+   200 y[5,7]       *              0             0             1 
+   201 y[6,7]       *              0             0             1 
+   202 y[7,7]       *              0             0             1 
+   203 y[8,7]       *              0             0             1 
+   204 y[9,7]       *              0             0             1 
+   205 y[10,7]      *              0             0             1 
+   206 y[11,7]      *              0             0             1 
+   207 y[12,7]      *              0             0             1 
+   208 y[13,7]      *              0             0             1 
+   209 y[14,7]      *              0             0             1 
+   210 y[15,7]      *              0             0             1 
+   211 A[1]         *              1             0             1 
+   212 A[2]         *              1             0             1 
+   213 A[3]         *              1             0             1 
+   214 A[4]         *              1             0             1 
+   215 A[5]         *              1             0             1 
+   216 A[6]         *              1             0             1 
+   217 A[7]         *              1             0             1 
+   218 E[1]                        5             0               
+   219 E[2]                        3             0               
+   220 E[3]                        7             0               
+   221 E[4]                        5             0               
+   222 E[5]                        4             0               
+   223 E[6]                        5             0               
+   224 E[7]                        4             0               
+   225 X[1]         *              9             0               
+   226 X[2]         *              7             0               
+   227 X[3]         *             11             0               
+   228 X[4]         *              9             0               
+   229 X[5]         *              8             0               
+   230 X[6]         *              9             0               
+   231 X[7]         *              8             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

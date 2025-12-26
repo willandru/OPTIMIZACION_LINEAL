@@ -1,0 +1,52 @@
+Problem:    ambulancias
+Rows:       10
+Columns:    9 (9 integer, 9 binary)
+Non-zeros:  41
+Status:     INTEGER OPTIMAL
+Objective:  z = 2.510790866e-05 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 z                 2.51079e-05                             
+     2 cubrimiento[1]
+                                   1             1               
+     3 cubrimiento[2]
+                                   1             1               
+     4 cubrimiento[3]
+                                   2             1               
+     5 cubrimiento[4]
+                                   1             1               
+     6 cubrimiento[5]
+                                   2             1               
+     7 cubrimiento[6]
+                                   1             1               
+     8 cubrimiento[7]
+                                   1             1               
+     9 cubrimiento[8]
+                                   2             1               
+    10 cubrimiento[9]
+                                   2             1               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              0             0             1 
+     2 x[2]         *              0             0             1 
+     3 x[3]         *              1             0             1 
+     4 x[4]         *              0             0             1 
+     5 x[5]         *              0             0             1 
+     6 x[6]         *              1             0             1 
+     7 x[7]         *              0             0             1 
+     8 x[8]         *              1             0             1 
+     9 x[9]         *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,22 @@
+#Conjuntos
+
+set I:=1..6; # Fondos de pension
+set J:=1..3; # Categoria de riesgo 
+
+#Parametros
+
+param P{I}; # Precio de los fondos I
+param T{I}; #Tasa esperada de retorno del fondo I.
+param Qmin{J}; #Cantidad minima invertida por riesgo J.
+param Qmax{J}; #Cantidad maxima invertida por riesgo J.
+
+#Variables de Decision
+
+#FuncionObjetivo
+
+#Restricciones
+
+
+#Datos
+
+data;

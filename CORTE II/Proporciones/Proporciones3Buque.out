@@ -1,0 +1,43 @@
+Problem:    Proporciones3Buque
+Rows:       8
+Columns:    6 (5 integer, 0 binary)
+Non-zeros:  25
+Status:     INTEGER OPTIMAL
+Objective:  Z = 11084 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Z                       11084                             
+     2 pesoMaximo               8772                       11200 
+     3 volMaximo               10812                       10900 
+     4 proporcion[1]
+                                   0            -0             = 
+     5 proporcion[2]
+                                   0            -0             = 
+     6 proporcion[3]
+                                   0            -0             = 
+     7 proporcion[4]
+                                   0            -0             = 
+     8 proporcion[5]
+                                   0            -0             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1]         *            204             0               
+     2 X[2]         *            340             0               
+     3 X[3]         *            680             0               
+     4 X[4]         *            544             0               
+     5 X[5]         *            272             0               
+     6 P                        0.68             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 2.27e-13 on row 6
+        max.rel.err = 2.27e-13 on row 6
+        High quality
+
+End of output

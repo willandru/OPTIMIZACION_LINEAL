@@ -1,0 +1,137 @@
+Problem:    VideoTexagoCo
+Rows:       37
+Columns:    32
+Non-zeros:  80
+Status:     OPTIMAL
+Objective:  Z = 108 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B            108                             
+     2 transporteCampoRefineria[1,1]
+                    NU            11                          11         < eps
+     3 transporteCampoRefineria[1,2]
+                    NU             7                           7             1 
+     4 transporteCampoRefineria[1,3]
+                    NU             2                           2         < eps
+     5 transporteCampoRefineria[1,4]
+                    NU             8                           8             1 
+     6 transporteCampoRefineria[2,1]
+                    NU             5                           5         < eps
+     7 transporteCampoRefineria[2,2]
+                    NU             4                           4             1 
+     8 transporteCampoRefineria[2,3]
+                    NU             8                           8         < eps
+     9 transporteCampoRefineria[2,4]
+                    NU             7                           7             1 
+    10 transporteCampoRefineria[3,1]
+                    NU             7                           7         < eps
+    11 transporteCampoRefineria[3,2]
+                    NU             3                           3             1 
+    12 transporteCampoRefineria[3,3]
+                    NU            12                          12         < eps
+    13 transporteCampoRefineria[3,4]
+                    NU             6                           6             1 
+    14 transporteCampoRefineria[4,1]
+                    B              1                           8 
+    15 transporteCampoRefineria[4,2]
+                    NU             9                           9             1 
+    16 transporteCampoRefineria[4,3]
+                    B              3                           4 
+    17 transporteCampoRefineria[4,4]
+                    NU            15                          15             1 
+    18 transporteRefineriaCentroDistri[1,1]
+                    NU             5                           5             1 
+    19 transporteRefineriaCentroDistri[1,2]
+                    NU             9                           9             1 
+    20 transporteRefineriaCentroDistri[1,3]
+                    NU             6                           6             1 
+    21 transporteRefineriaCentroDistri[1,4]
+                    NU             4                           4             1 
+    22 transporteRefineriaCentroDistri[2,1]
+                    NU             8                           8         < eps
+    23 transporteRefineriaCentroDistri[2,2]
+                    NU             7                           7         < eps
+    24 transporteRefineriaCentroDistri[2,3]
+                    B              8                           9 
+    25 transporteRefineriaCentroDistri[2,4]
+                    B              0                           5 
+    26 transporteRefineriaCentroDistri[3,1]
+                    NU             4                           4             1 
+    27 transporteRefineriaCentroDistri[3,2]
+                    NU             6                           6             1 
+    28 transporteRefineriaCentroDistri[3,3]
+                    NU             7                           7             1 
+    29 transporteRefineriaCentroDistri[3,4]
+                    NU             8                           8             1 
+    30 transporteRefineriaCentroDistri[4,1]
+                    NU            12                          12         < eps
+    31 transporteRefineriaCentroDistri[4,2]
+                    NU            11                          11         < eps
+    32 transporteRefineriaCentroDistri[4,3]
+                    NU             9                           9         < eps
+    33 transporteRefineriaCentroDistri[4,4]
+                    B              4                           7 
+    34 noAlmacenamientoRefineria[1]
+                    NS             0            -0             =         < eps
+    35 noAlmacenamientoRefineria[2]
+                    NS             0            -0             =            -1 
+    36 noAlmacenamientoRefineria[3]
+                    NS             0            -0             =         < eps
+    37 noAlmacenamientoRefineria[4]
+                    NS             0            -0             =            -1 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 X[1,1]       B             11             0               
+     2 X[1,2]       B              7             0               
+     3 X[1,3]       B              2             0               
+     4 X[1,4]       B              8             0               
+     5 X[2,1]       B              5             0               
+     6 X[2,2]       B              4             0               
+     7 X[2,3]       B              8             0               
+     8 X[2,4]       B              7             0               
+     9 X[3,1]       B              7             0               
+    10 X[3,2]       B              3             0               
+    11 X[3,3]       B             12             0               
+    12 X[3,4]       B              6             0               
+    13 X[4,1]       B              1             0               
+    14 X[4,2]       B              9             0               
+    15 X[4,3]       B              3             0               
+    16 X[4,4]       B             15             0               
+    17 Y[1,1]       B              5             0               
+    18 Y[1,2]       B              9             0               
+    19 Y[1,3]       B              6             0               
+    20 Y[1,4]       B              4             0               
+    21 Y[2,1]       B              8             0               
+    22 Y[2,2]       B              7             0               
+    23 Y[2,3]       B              8             0               
+    24 Y[2,4]       NL             0             0                       < eps
+    25 Y[3,1]       B              4             0               
+    26 Y[3,2]       B              6             0               
+    27 Y[3,3]       B              7             0               
+    28 Y[3,4]       B              8             0               
+    29 Y[4,1]       B             12             0               
+    30 Y[4,2]       B             11             0               
+    31 Y[4,3]       B              9             0               
+    32 Y[4,4]       B              4             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

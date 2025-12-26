@@ -1,0 +1,130 @@
+Problem:    donMario
+Rows:       43
+Columns:    21 (14 integer, 7 binary)
+Non-zeros:  84
+Status:     INTEGER OPTIMAL
+Objective:  z = 129 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 z                         129                             
+     2 demandaDiariaPorCliente[1]
+                                  -9            -9               
+     3 demandaDiariaPorCliente[2]
+                                  -7            -7               
+     4 demandaDiariaPorCliente[3]
+                                 -12           -12               
+     5 demandaDiariaPorCliente[4]
+                                  -9            -9               
+     6 demandaDiariaPorCliente[5]
+                                  -8            -8               
+     7 demandaDiariaPorCliente[6]
+                                  -9            -9               
+     8 demandaDiariaPorCliente[7]
+                                  -8            -8               
+     9 cobertura90porciento[1]
+                                   9           8.1               
+    10 cobertura90porciento[2]
+                                   7           6.3               
+    11 cobertura90porciento[3]
+                                  12          10.8               
+    12 cobertura90porciento[4]
+                                   9           8.1               
+    13 cobertura90porciento[5]
+                                   8           7.2               
+    14 cobertura90porciento[6]
+                                   9           8.1               
+    15 cobertura90porciento[7]
+                                   8           7.2               
+    16 variableEesUnidExtra[1]
+                                  -4            -4             = 
+    17 variableEesUnidExtra[2]
+                                  -4            -4             = 
+    18 variableEesUnidExtra[3]
+                                  -4            -4             = 
+    19 variableEesUnidExtra[4]
+                                  -4            -4             = 
+    20 variableEesUnidExtra[5]
+                                  -4            -4             = 
+    21 variableEesUnidExtra[6]
+                                  -4            -4             = 
+    22 variableEesUnidExtra[7]
+                                  -4            -4             = 
+    23 noSePagaFleteXmenorW[1]
+                               -8991                           4 
+    24 noSePagaFleteXmenorW[2]
+                               -8993                           4 
+    25 noSePagaFleteXmenorW[3]
+                               -8988                           4 
+    26 noSePagaFleteXmenorW[4]
+                               -8991                           4 
+    27 noSePagaFleteXmenorW[5]
+                               -8992                           4 
+    28 noSePagaFleteXmenorW[6]
+                               -8991                           4 
+    29 noSePagaFleteXmenorW[7]
+                               -8992                           4 
+    30 siSePagaFleteXmayorW[1]
+                               -8991         -8995               
+    31 siSePagaFleteXmayorW[2]
+                               -8993         -8995               
+    32 siSePagaFleteXmayorW[3]
+                               -8988         -8995               
+    33 siSePagaFleteXmayorW[4]
+                               -8991         -8995               
+    34 siSePagaFleteXmayorW[5]
+                               -8992         -8995               
+    35 siSePagaFleteXmayorW[6]
+                               -8991         -8995               
+    36 siSePagaFleteXmayorW[7]
+                               -8992         -8995               
+    37 naturalidadUnidExtra[1]
+                                   5            -0               
+    38 naturalidadUnidExtra[2]
+                                   3            -0               
+    39 naturalidadUnidExtra[3]
+                                   8            -0               
+    40 naturalidadUnidExtra[4]
+                                   5            -0               
+    41 naturalidadUnidExtra[5]
+                                   4            -0               
+    42 naturalidadUnidExtra[6]
+                                   5            -0               
+    43 naturalidadUnidExtra[7]
+                                   4            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1]         *              9             0               
+     2 X[2]         *              7             0               
+     3 X[3]         *             12             0               
+     4 X[4]         *              9             0               
+     5 X[5]         *              8             0               
+     6 X[6]         *              9             0               
+     7 X[7]         *              8             0               
+     8 A[1]         *              1             0             1 
+     9 A[2]         *              1             0             1 
+    10 A[3]         *              1             0             1 
+    11 A[4]         *              1             0             1 
+    12 A[5]         *              1             0             1 
+    13 A[6]         *              1             0             1 
+    14 A[7]         *              1             0             1 
+    15 E[1]                        5             0               
+    16 E[2]                        3             0               
+    17 E[3]                        8             0               
+    18 E[4]                        5             0               
+    19 E[5]                        4             0               
+    20 E[6]                        5             0               
+    21 E[7]                        4             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

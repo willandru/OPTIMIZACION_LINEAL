@@ -1,0 +1,546 @@
+Problem:    CasoOpti
+Rows:       169
+Columns:    185 (185 integer, 35 binary)
+Non-zeros:  1460
+Status:     INTEGER NON-OPTIMAL
+Objective:  z = 1359420 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 z                 1.35942e+06                             
+     2 cadaFamiliaMin10Porciento[1]
+                               15500         15500               
+     3 cadaFamiliaMin10Porciento[2]
+                               92953         15500               
+     4 cadaFamiliaMin10Porciento[3]
+                               15500         15500               
+     5 cadaFamiliaMin10Porciento[4]
+                               15516         15500               
+     6 cadaFamiliaMin10Porciento[5]
+                               15504         15500               
+     7 presupuestoTotal
+                              499998                      500000 
+     8 proporcionArboles7y12
+                             -997759       -999999               
+     9 areaMaxNoSembrada
+                        -1.15497e+06                 -1.1548e+06 
+    10 region1Minimo20CO2
+                             -184304       -999999               
+    11 proprocionRegion2Minimo20
+                             -999998       -999998               
+    12 siEnRegion3y4Arbol5EntoncesNoEnRegion2noFamilia5
+                                   3                       1e+06 
+    13 sumadeBmayor3
+                                   3             3               
+    14 compatibilidadFamiliaRegion[1,1]
+                                   1                           1 
+    15 compatibilidadFamiliaRegion[1,2]
+                                   0                          -0 
+    16 compatibilidadFamiliaRegion[1,3]
+                                   1                           1 
+    17 compatibilidadFamiliaRegion[1,4]
+                                   1                           1 
+    18 compatibilidadFamiliaRegion[1,5]
+                                   0                           1 
+    19 compatibilidadFamiliaRegion[1,6]
+                                   0                          -0 
+    20 compatibilidadFamiliaRegion[2,1]
+                                   1                           1 
+    21 compatibilidadFamiliaRegion[2,2]
+                                   1                           1 
+    22 compatibilidadFamiliaRegion[2,3]
+                                   0                          -0 
+    23 compatibilidadFamiliaRegion[2,4]
+                                   1                           1 
+    24 compatibilidadFamiliaRegion[2,5]
+                                   0                          -0 
+    25 compatibilidadFamiliaRegion[2,6]
+                                   1                           1 
+    26 compatibilidadFamiliaRegion[3,1]
+                                   0                           1 
+    27 compatibilidadFamiliaRegion[3,2]
+                                   0                          -0 
+    28 compatibilidadFamiliaRegion[3,3]
+                                   1                           1 
+    29 compatibilidadFamiliaRegion[3,4]
+                                   0                          -0 
+    30 compatibilidadFamiliaRegion[3,5]
+                                   1                           1 
+    31 compatibilidadFamiliaRegion[3,6]
+                                   0                           1 
+    32 compatibilidadFamiliaRegion[4,1]
+                                   0                          -0 
+    33 compatibilidadFamiliaRegion[4,2]
+                                   0                           1 
+    34 compatibilidadFamiliaRegion[4,3]
+                                   0                           1 
+    35 compatibilidadFamiliaRegion[4,4]
+                                   0                           1 
+    36 compatibilidadFamiliaRegion[4,5]
+                                   1                           1 
+    37 compatibilidadFamiliaRegion[4,6]
+                                   0                          -0 
+    38 compatibilidadFamiliaRegion[5,1]
+                                   0                          -0 
+    39 compatibilidadFamiliaRegion[5,2]
+                                   1                           1 
+    40 compatibilidadFamiliaRegion[5,3]
+                                   1                           1 
+    41 compatibilidadFamiliaRegion[5,4]
+                                   1                           1 
+    42 compatibilidadFamiliaRegion[5,5]
+                                   0                          -0 
+    43 compatibilidadFamiliaRegion[5,6]
+                                   1                           1 
+    44 siUsoRegionPlantoAhi[1,1]
+                                 139            -0               
+    45 siUsoRegionPlantoAhi[1,2]
+                                 254            -0               
+    46 siUsoRegionPlantoAhi[1,3]
+                                   0            -0               
+    47 siUsoRegionPlantoAhi[1,4]
+                                   0            -0               
+    48 siUsoRegionPlantoAhi[1,5]
+                                   0            -0               
+    49 siUsoRegionPlantoAhi[2,1]
+                                   0            -0               
+    50 siUsoRegionPlantoAhi[2,2]
+                                 639            -0               
+    51 siUsoRegionPlantoAhi[2,3]
+                                   0            -0               
+    52 siUsoRegionPlantoAhi[2,4]
+                                   0            -0               
+    53 siUsoRegionPlantoAhi[2,5]
+                                  39            -0               
+    54 siUsoRegionPlantoAhi[3,1]
+                                 478            -0               
+    55 siUsoRegionPlantoAhi[3,2]
+                                   0            -0               
+    56 siUsoRegionPlantoAhi[3,3]
+                                 520            -0               
+    57 siUsoRegionPlantoAhi[3,4]
+                                   0            -0               
+    58 siUsoRegionPlantoAhi[3,5]
+                                 124            -0               
+    59 siUsoRegionPlantoAhi[4,1]
+                                   0            -0               
+    60 siUsoRegionPlantoAhi[4,2]
+                                 577            -0               
+    61 siUsoRegionPlantoAhi[4,3]
+                                   0            -0               
+    62 siUsoRegionPlantoAhi[4,4]
+                                   0            -0               
+    63 siUsoRegionPlantoAhi[4,5]
+                                 789            -0               
+    64 siUsoRegionPlantoAhi[5,1]
+                                   0            -0               
+    65 siUsoRegionPlantoAhi[5,2]
+                                   0            -0               
+    66 siUsoRegionPlantoAhi[5,3]
+                                  98            -0               
+    67 siUsoRegionPlantoAhi[5,4]
+                                 430            -0               
+    68 siUsoRegionPlantoAhi[5,5]
+                                   0            -0               
+    69 siUsoRegionPlantoAhi[6,1]
+                                   0            -0               
+    70 siUsoRegionPlantoAhi[6,2]
+                                 423            -0               
+    71 siUsoRegionPlantoAhi[6,3]
+                                   0            -0               
+    72 siUsoRegionPlantoAhi[6,4]
+                                   0            -0               
+    73 siUsoRegionPlantoAhi[6,5]
+                                  13            -0               
+    74 siNoUsoRegionNoPlantoAhi[1,1]
+                             -999859                          -0 
+    75 siNoUsoRegionNoPlantoAhi[1,2]
+                             -999744                          -0 
+    76 siNoUsoRegionNoPlantoAhi[1,3]
+                                   0                          -0 
+    77 siNoUsoRegionNoPlantoAhi[1,4]
+                                   0                          -0 
+    78 siNoUsoRegionNoPlantoAhi[1,5]
+                                   0                          -0 
+    79 siNoUsoRegionNoPlantoAhi[2,1]
+                                   0                          -0 
+    80 siNoUsoRegionNoPlantoAhi[2,2]
+                             -999359                          -0 
+    81 siNoUsoRegionNoPlantoAhi[2,3]
+                                   0                          -0 
+    82 siNoUsoRegionNoPlantoAhi[2,4]
+                                   0                          -0 
+    83 siNoUsoRegionNoPlantoAhi[2,5]
+                             -999959                          -0 
+    84 siNoUsoRegionNoPlantoAhi[3,1]
+                             -999520                          -0 
+    85 siNoUsoRegionNoPlantoAhi[3,2]
+                                   0                          -0 
+    86 siNoUsoRegionNoPlantoAhi[3,3]
+                             -999478                          -0 
+    87 siNoUsoRegionNoPlantoAhi[3,4]
+                                   0                          -0 
+    88 siNoUsoRegionNoPlantoAhi[3,5]
+                             -999874                          -0 
+    89 siNoUsoRegionNoPlantoAhi[4,1]
+                             -999998                          -0 
+    90 siNoUsoRegionNoPlantoAhi[4,2]
+                             -999421                          -0 
+    91 siNoUsoRegionNoPlantoAhi[4,3]
+                                   0                          -0 
+    92 siNoUsoRegionNoPlantoAhi[4,4]
+                                   0                          -0 
+    93 siNoUsoRegionNoPlantoAhi[4,5]
+                             -999209                          -0 
+    94 siNoUsoRegionNoPlantoAhi[5,1]
+                                   0                          -0 
+    95 siNoUsoRegionNoPlantoAhi[5,2]
+                                   0                          -0 
+    96 siNoUsoRegionNoPlantoAhi[5,3]
+                             -999900                          -0 
+    97 siNoUsoRegionNoPlantoAhi[5,4]
+                             -999568                          -0 
+    98 siNoUsoRegionNoPlantoAhi[5,5]
+                                   0                          -0 
+    99 siNoUsoRegionNoPlantoAhi[6,1]
+                                   0                          -0 
+   100 siNoUsoRegionNoPlantoAhi[6,2]
+                             -999575                          -0 
+   101 siNoUsoRegionNoPlantoAhi[6,3]
+                                   0                          -0 
+   102 siNoUsoRegionNoPlantoAhi[6,4]
+                                   0                          -0 
+   103 siNoUsoRegionNoPlantoAhi[6,5]
+                             -999985                          -0 
+   104 compatibilidadEntreFamilias[1,1,2]
+                                   2                           2 
+   105 compatibilidadEntreFamilias[1,1,3]
+                                   1                           2 
+   106 compatibilidadEntreFamilias[1,1,4]
+                                   1                           2 
+   107 compatibilidadEntreFamilias[1,1,5]
+                                   1                           2 
+   108 compatibilidadEntreFamilias[1,2,3]
+                                   1                           1 
+   109 compatibilidadEntreFamilias[1,2,4]
+                                   1                           1 
+   110 compatibilidadEntreFamilias[1,2,5]
+                                   1                           2 
+   111 compatibilidadEntreFamilias[1,3,4]
+                                   0                           2 
+   112 compatibilidadEntreFamilias[1,3,5]
+                                   0                           2 
+   113 compatibilidadEntreFamilias[1,4,5]
+                                   0                           1 
+   114 compatibilidadEntreFamilias[2,1,2]
+                                   1                           2 
+   115 compatibilidadEntreFamilias[2,1,3]
+                                   0                           2 
+   116 compatibilidadEntreFamilias[2,1,4]
+                                   0                           2 
+   117 compatibilidadEntreFamilias[2,1,5]
+                                   1                           2 
+   118 compatibilidadEntreFamilias[2,2,3]
+                                   1                           1 
+   119 compatibilidadEntreFamilias[2,2,4]
+                                   1                           1 
+   120 compatibilidadEntreFamilias[2,2,5]
+                                   2                           2 
+   121 compatibilidadEntreFamilias[2,3,4]
+                                   0                           2 
+   122 compatibilidadEntreFamilias[2,3,5]
+                                   1                           2 
+   123 compatibilidadEntreFamilias[2,4,5]
+                                   1                           1 
+   124 compatibilidadEntreFamilias[3,1,2]
+                                   1                           2 
+   125 compatibilidadEntreFamilias[3,1,3]
+                                   2                           2 
+   126 compatibilidadEntreFamilias[3,1,4]
+                                   1                           2 
+   127 compatibilidadEntreFamilias[3,1,5]
+                                   2                           2 
+   128 compatibilidadEntreFamilias[3,2,3]
+                                   1                           1 
+   129 compatibilidadEntreFamilias[3,2,4]
+                                   0                           1 
+   130 compatibilidadEntreFamilias[3,2,5]
+                                   1                           2 
+   131 compatibilidadEntreFamilias[3,3,4]
+                                   1                           2 
+   132 compatibilidadEntreFamilias[3,3,5]
+                                   2                           2 
+   133 compatibilidadEntreFamilias[3,4,5]
+                                   1                           1 
+   134 compatibilidadEntreFamilias[4,1,2]
+                                   2                           2 
+   135 compatibilidadEntreFamilias[4,1,3]
+                                   1                           2 
+   136 compatibilidadEntreFamilias[4,1,4]
+                                   1                           2 
+   137 compatibilidadEntreFamilias[4,1,5]
+                                   2                           2 
+   138 compatibilidadEntreFamilias[4,2,3]
+                                   1                           1 
+   139 compatibilidadEntreFamilias[4,2,4]
+                                   1                           1 
+   140 compatibilidadEntreFamilias[4,2,5]
+                                   2                           2 
+   141 compatibilidadEntreFamilias[4,3,4]
+                                   0                           2 
+   142 compatibilidadEntreFamilias[4,3,5]
+                                   1                           2 
+   143 compatibilidadEntreFamilias[4,4,5]
+                                   1                           1 
+   144 compatibilidadEntreFamilias[5,1,2]
+                                   0                           2 
+   145 compatibilidadEntreFamilias[5,1,3]
+                                   1                           2 
+   146 compatibilidadEntreFamilias[5,1,4]
+                                   1                           2 
+   147 compatibilidadEntreFamilias[5,1,5]
+                                   0                           2 
+   148 compatibilidadEntreFamilias[5,2,3]
+                                   1                           1 
+   149 compatibilidadEntreFamilias[5,2,4]
+                                   1                           1 
+   150 compatibilidadEntreFamilias[5,2,5]
+                                   0                           2 
+   151 compatibilidadEntreFamilias[5,3,4]
+                                   2                           2 
+   152 compatibilidadEntreFamilias[5,3,5]
+                                   1                           2 
+   153 compatibilidadEntreFamilias[5,4,5]
+                                   1                           1 
+   154 compatibilidadEntreFamilias[6,1,2]
+                                   1                           2 
+   155 compatibilidadEntreFamilias[6,1,3]
+                                   0                           2 
+   156 compatibilidadEntreFamilias[6,1,4]
+                                   0                           2 
+   157 compatibilidadEntreFamilias[6,1,5]
+                                   1                           2 
+   158 compatibilidadEntreFamilias[6,2,3]
+                                   1                           1 
+   159 compatibilidadEntreFamilias[6,2,4]
+                                   1                           1 
+   160 compatibilidadEntreFamilias[6,2,5]
+                                   2                           2 
+   161 compatibilidadEntreFamilias[6,3,4]
+                                   0                           2 
+   162 compatibilidadEntreFamilias[6,3,5]
+                                   1                           2 
+   163 compatibilidadEntreFamilias[6,4,5]
+                                   1                           1 
+   164 areaDisponiblePorRegion[1]
+                               15995                       16000 
+   165 areaDisponiblePorRegion[2]
+                               32000                       32000 
+   166 areaDisponiblePorRegion[3]
+                               27000                       27000 
+   167 areaDisponiblePorRegion[4]
+                               40987                       41000 
+   168 areaDisponiblePorRegion[5]
+                               17991                       18000 
+   169 areaDisponiblePorRegion[6]
+                               21000                       21000 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[5,2]       *              1             0             1 
+     2 X[5,4]       *              1             0             1 
+     3 X[5,3]       *              1             0             1 
+     4 X[1,1]       *              1             0             1 
+     5 X[1,2]       *              0             0             1 
+     6 X[1,3]       *              1             0             1 
+     7 X[1,4]       *              1             0             1 
+     8 X[1,5]       *              0             0             1 
+     9 X[1,6]       *              0             0             1 
+    10 X[2,1]       *              1             0             1 
+    11 X[2,2]       *              1             0             1 
+    12 X[2,3]       *              0             0             1 
+    13 X[2,4]       *              1             0             1 
+    14 X[2,5]       *              0             0             1 
+    15 X[2,6]       *              1             0             1 
+    16 X[3,1]       *              0             0             1 
+    17 X[3,2]       *              0             0             1 
+    18 X[3,3]       *              1             0             1 
+    19 X[3,4]       *              0             0             1 
+    20 X[3,5]       *              1             0             1 
+    21 X[3,6]       *              0             0             1 
+    22 X[4,1]       *              0             0             1 
+    23 X[4,2]       *              0             0             1 
+    24 X[4,3]       *              0             0             1 
+    25 X[4,4]       *              0             0             1 
+    26 X[4,5]       *              1             0             1 
+    27 X[4,6]       *              0             0             1 
+    28 X[5,1]       *              0             0             1 
+    29 X[5,5]       *              0             0             1 
+    30 X[5,6]       *              1             0             1 
+    31 Y[1,1]       *            137             0               
+    32 Y[1,2]       *              0             0               
+    33 Y[1,3]       *            473             0               
+    34 Y[1,4]       *              0             0               
+    35 Y[1,5]       *              0             0               
+    36 Y[1,6]       *              0             0               
+    37 Y[2,1]       *              0             0               
+    38 Y[2,2]       *              0             0               
+    39 Y[2,3]       *              0             0               
+    40 Y[2,4]       *              0             0               
+    41 Y[2,5]       *              0             0               
+    42 Y[2,6]       *              0             0               
+    43 Y[3,1]       *              3             0               
+    44 Y[3,2]       *              0             0               
+    45 Y[3,3]       *              6             0               
+    46 Y[3,4]       *              1             0               
+    47 Y[3,5]       *              0             0               
+    48 Y[3,6]       *              0             0               
+    49 Y[4,1]       *              0             0               
+    50 Y[4,2]       *              0             0               
+    51 Y[4,3]       *              0             0               
+    52 Y[4,4]       *              0             0               
+    53 Y[4,5]       *              0             0               
+    54 Y[4,6]       *              0             0               
+    55 Y[5,1]       *              0             0               
+    56 Y[5,2]       *              0             0               
+    57 Y[5,3]       *              0             0               
+    58 Y[5,4]       *              0             0               
+    59 Y[5,5]       *              0             0               
+    60 Y[5,6]       *              0             0               
+    61 Y[6,1]       *            255             0               
+    62 Y[6,2]       *            640             0               
+    63 Y[6,3]       *              0             0               
+    64 Y[6,4]       *            578             0               
+    65 Y[6,5]       *              0             0               
+    66 Y[6,6]       *            424             0               
+    67 Y[7,1]       *              0             0               
+    68 Y[7,2]       *              0             0               
+    69 Y[7,3]       *              0             0               
+    70 Y[7,4]       *              0             0               
+    71 Y[7,5]       *              0             0               
+    72 Y[7,6]       *              0             0               
+    73 Y[8,1]       *              0             0               
+    74 Y[8,2]       *              0             0               
+    75 Y[8,3]       *              0             0               
+    76 Y[8,4]       *              0             0               
+    77 Y[8,5]       *              0             0               
+    78 Y[8,6]       *              0             0               
+    79 Y[9,1]       *              0             0               
+    80 Y[9,2]       *              0             0               
+    81 Y[9,3]       *              0             0               
+    82 Y[9,4]       *              0             0               
+    83 Y[9,5]       *              0             0               
+    84 Y[9,6]       *              0             0               
+    85 Y[10,1]      *              0             0               
+    86 Y[10,2]      *              0             0               
+    87 Y[10,3]      *              0             0               
+    88 Y[10,4]      *              0             0               
+    89 Y[10,5]      *              0             0               
+    90 Y[10,6]      *              0             0               
+    91 Y[11,1]      *              0             0               
+    92 Y[11,2]      *              0             0               
+    93 Y[11,3]      *            497             0               
+    94 Y[11,4]      *              0             0               
+    95 Y[11,5]      *             10             0               
+    96 Y[11,6]      *              0             0               
+    97 Y[12,1]      *              0             0               
+    98 Y[12,2]      *              0             0               
+    99 Y[12,3]      *             24             0               
+   100 Y[12,4]      *              0             0               
+   101 Y[12,5]      *             88             0               
+   102 Y[12,6]      *              0             0               
+   103 Y[13,1]      *              0             0               
+   104 Y[13,2]      *              0             0               
+   105 Y[13,3]      *              0             0               
+   106 Y[13,4]      *              0             0               
+   107 Y[13,5]      *              1             0               
+   108 Y[13,6]      *              0             0               
+   109 Y[14,1]      *              0             0               
+   110 Y[14,2]      *              0             0               
+   111 Y[14,3]      *              0             0               
+   112 Y[14,4]      *              0             0               
+   113 Y[14,5]      *              0             0               
+   114 Y[14,6]      *              0             0               
+   115 Y[15,1]      *              0             0               
+   116 Y[15,2]      *              0             0               
+   117 Y[15,3]      *              0             0               
+   118 Y[15,4]      *              0             0               
+   119 Y[15,5]      *              0             0               
+   120 Y[15,6]      *              0             0               
+   121 Y[16,1]      *              0             0               
+   122 Y[16,2]      *              0             0               
+   123 Y[16,3]      *              0             0               
+   124 Y[16,4]      *              0             0               
+   125 Y[16,5]      *              0             0               
+   126 Y[16,6]      *              0             0               
+   127 Y[17,1]      *              0             0               
+   128 Y[17,2]      *              0             0               
+   129 Y[17,3]      *              0             0               
+   130 Y[17,4]      *              0             0               
+   131 Y[17,5]      *            431             0               
+   132 Y[17,6]      *              0             0               
+   133 Y[18,1]      *              0             0               
+   134 Y[18,2]      *              0             0               
+   135 Y[18,3]      *              0             0               
+   136 Y[18,4]      *              0             0               
+   137 Y[18,5]      *              0             0               
+   138 Y[18,6]      *              0             0               
+   139 Y[19,1]      *              0             0               
+   140 Y[19,2]      *              0             0               
+   141 Y[19,3]      *              0             0               
+   142 Y[19,4]      *              0             0               
+   143 Y[19,5]      *              0             0               
+   144 Y[19,6]      *              0             0               
+   145 Y[20,1]      *              0             0               
+   146 Y[20,2]      *              0             0               
+   147 Y[20,3]      *              0             0               
+   148 Y[20,4]      *              0             0               
+   149 Y[20,5]      *              0             0               
+   150 Y[20,6]      *              0             0               
+   151 Y[21,1]      *              0             0               
+   152 Y[21,2]      *              0             0               
+   153 Y[21,3]      *              0             0               
+   154 Y[21,4]      *              0             0               
+   155 Y[21,5]      *              0             0               
+   156 Y[21,6]      *              0             0               
+   157 Y[22,1]      *              0             0               
+   158 Y[22,2]      *              0             0               
+   159 Y[22,3]      *              0             0               
+   160 Y[22,4]      *              0             0               
+   161 Y[22,5]      *              0             0               
+   162 Y[22,6]      *              0             0               
+   163 Y[23,1]      *              0             0               
+   164 Y[23,2]      *              0             0               
+   165 Y[23,3]      *              0             0               
+   166 Y[23,4]      *              0             0               
+   167 Y[23,5]      *              0             0               
+   168 Y[23,6]      *              0             0               
+   169 Y[24,1]      *              0             0               
+   170 Y[24,2]      *              0             0               
+   171 Y[24,3]      *              0             0               
+   172 Y[24,4]      *              0             0               
+   173 Y[24,5]      *              0             0               
+   174 Y[24,6]      *              0             0               
+   175 Y[25,1]      *              0             0               
+   176 Y[25,2]      *             40             0               
+   177 Y[25,3]      *            125             0               
+   178 Y[25,4]      *            790             0               
+   179 Y[25,5]      *              0             0               
+   180 Y[25,6]      *             14             0               
+   181 B[1]         *              1             0             1 
+   182 B[2]         *              1             0             1 
+   183 B[3]         *              0             0             1 
+   184 B[4]         *              1             0             1 
+   185 B[5]         *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

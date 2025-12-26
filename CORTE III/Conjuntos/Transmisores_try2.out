@@ -1,0 +1,74 @@
+Problem:    Transmisores_try2
+Rows:       18
+Columns:    24 (24 integer, 24 binary)
+Non-zeros:  83
+Status:     INTEGER OPTIMAL
+Objective:  objetivo = 423995 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 objetivo               423995                             
+     2 presupuestoMaximo
+                               15.45                          20 
+     3 cobertura[1]                0            -0               
+     4 cobertura[2]                0            -0               
+     5 cobertura[3]                0            -0               
+     6 cobertura[4]                0            -0               
+     7 cobertura[5]                0            -0               
+     8 cobertura[6]                1            -0               
+     9 cobertura[7]                1            -0               
+    10 cobertura[8]                0            -0               
+    11 cobertura[9]                2            -0               
+    12 cobertura[10]
+                                   0            -0               
+    13 cobertura[11]
+                                   0            -0               
+    14 cobertura[12]
+                                   0            -0               
+    15 cobertura[13]
+                                   0            -0               
+    16 cobertura[14]
+                                   0            -0               
+    17 cobertura[15]
+                                   1            -0               
+    18 cobertura[16]
+                                   0            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1]         *              0             0             1 
+     2 X[2]         *              1             0             1 
+     3 X[3]         *              1             0             1 
+     4 X[4]         *              1             0             1 
+     5 X[5]         *              1             0             1 
+     6 X[6]         *              0             0             1 
+     7 X[7]         *              1             0             1 
+     8 X[8]         *              0             0             1 
+     9 Y[1]         *              1             0             1 
+    10 Y[2]         *              1             0             1 
+    11 Y[3]         *              1             0             1 
+    12 Y[4]         *              1             0             1 
+    13 Y[5]         *              1             0             1 
+    14 Y[6]         *              1             0             1 
+    15 Y[7]         *              1             0             1 
+    16 Y[8]         *              1             0             1 
+    17 Y[9]         *              1             0             1 
+    18 Y[10]        *              1             0             1 
+    19 Y[11]        *              1             0             1 
+    20 Y[12]        *              1             0             1 
+    21 Y[13]        *              1             0             1 
+    22 Y[14]        *              1             0             1 
+    23 Y[15]        *              1             0             1 
+    24 Y[16]        *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

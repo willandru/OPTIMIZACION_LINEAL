@@ -1,0 +1,2367 @@
+Problem:    last
+Rows:       947
+Columns:    465 (465 integer, 240 binary)
+Non-zeros:  2710
+Status:     INTEGER OPTIMAL
+Objective:  Z = 56084470 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Z                 5.60845e+07                             
+     2 cantidadMaximadeFabricas
+                                   5                           5 
+     3 capacidadPorduccion[1]
+                               15100                       22960 
+     4 capacidadPorduccion[2]
+                               16550                       18620 
+     5 capacidadPorduccion[3]
+                                   0                       25340 
+     6 capacidadPorduccion[4]
+                                   0                       27370 
+     7 capacidadPorduccion[5]
+                                8910                       18340 
+     8 capacidadPorduccion[6]
+                               11640                       22750 
+     9 capacidadPorduccion[7]
+                                   0                       27370 
+    10 capacidadPorduccion[8]
+                                   0                       24220 
+    11 capacidadPorduccion[9]
+                                   0                       39690 
+    12 capacidadPorduccion[10]
+                                   0                       33880 
+    13 capacidadPorduccion[11]
+                                   0                       22680 
+    14 capacidadPorduccion[12]
+                               16500                       20230 
+    15 capacidadPorduccion[13]
+                                   0                       14210 
+    16 capacidadPorduccion[14]
+                                   0                       32480 
+    17 capacidadPorduccion[15]
+                                   0                       22470 
+    18 capacidad3[1,1]
+                                2990                       23659 
+    19 capacidad3[1,2]
+                                   0                       13267 
+    20 capacidad3[1,3]
+                                2910                       13682 
+    21 capacidad3[1,4]
+                                   0                       16035 
+    22 capacidad3[1,5]
+                                   0                       16784 
+    23 capacidad3[1,6]
+                                   0                       20045 
+    24 capacidad3[1,7]
+                                   0                       20908 
+    25 capacidad3[1,8]
+                                   0                       22865 
+    26 capacidad3[1,9]
+                                3070                       15084 
+    27 capacidad3[1,10]
+                                6130                       25545 
+    28 capacidad3[1,11]
+                                   0                       17573 
+    29 capacidad3[1,12]
+                                   0                       12740 
+    30 capacidad3[1,13]
+                                   0                       29094 
+    31 capacidad3[1,14]
+                                   0                       22731 
+    32 capacidad3[1,15]
+                                   0                       11491 
+    33 capacidad3[2,1]
+                                   0                       18233 
+    34 capacidad3[2,2]
+                                7830                       12725 
+    35 capacidad3[2,3]
+                                   0                       12145 
+    36 capacidad3[2,4]
+                                   0                       26608 
+    37 capacidad3[2,5]
+                                   0                       14457 
+    38 capacidad3[2,6]
+                                   0                       15827 
+    39 capacidad3[2,7]
+                                6650                       24630 
+    40 capacidad3[2,8]
+                                   0                       23421 
+    41 capacidad3[2,9]
+                                   0                       22218 
+    42 capacidad3[2,10]
+                                   0                       19333 
+    43 capacidad3[2,11]
+                                   0                       22932 
+    44 capacidad3[2,12]
+                                   0                       15082 
+    45 capacidad3[2,13]
+                                2070                       15657 
+    46 capacidad3[2,14]
+                                   0                       19448 
+    47 capacidad3[2,15]
+                                   0                       13068 
+    48 capacidad3[3,1]
+                                   0                       25323 
+    49 capacidad3[3,2]
+                                   0                       17878 
+    50 capacidad3[3,3]
+                                   0                       24532 
+    51 capacidad3[3,4]
+                                   0                       28698 
+    52 capacidad3[3,5]
+                                   0                       26510 
+    53 capacidad3[3,6]
+                                   0                       13445 
+    54 capacidad3[3,7]
+                                   0                       17537 
+    55 capacidad3[3,8]
+                                   0                       29093 
+    56 capacidad3[3,9]
+                                   0                       20612 
+    57 capacidad3[3,10]
+                                   0                       10040 
+    58 capacidad3[3,11]
+                                   0                       23435 
+    59 capacidad3[3,12]
+                                   0                       18378 
+    60 capacidad3[3,13]
+                                   0                       14018 
+    61 capacidad3[3,14]
+                                   0                       11553 
+    62 capacidad3[3,15]
+                                   0                       21252 
+    63 capacidad3[4,1]
+                                   0                       15497 
+    64 capacidad3[4,2]
+                                   0                       15223 
+    65 capacidad3[4,3]
+                                   0                       20323 
+    66 capacidad3[4,4]
+                                   0                       16902 
+    67 capacidad3[4,5]
+                                   0                       13041 
+    68 capacidad3[4,6]
+                                   0                       13118 
+    69 capacidad3[4,7]
+                                   0                       23089 
+    70 capacidad3[4,8]
+                                   0                       12980 
+    71 capacidad3[4,9]
+                                   0                       16964 
+    72 capacidad3[4,10]
+                                   0                       25159 
+    73 capacidad3[4,11]
+                                   0                       17209 
+    74 capacidad3[4,12]
+                                   0                       28349 
+    75 capacidad3[4,13]
+                                   0                       10351 
+    76 capacidad3[4,14]
+                                   0                       13388 
+    77 capacidad3[4,15]
+                                   0                       28463 
+    78 capacidad3[5,1]
+                                   0                       23733 
+    79 capacidad3[5,2]
+                                   0                       14066 
+    80 capacidad3[5,3]
+                                   0                       17169 
+    81 capacidad3[5,4]
+                                   0                       11849 
+    82 capacidad3[5,5]
+                                3810                       10075 
+    83 capacidad3[5,6]
+                                   0                       27992 
+    84 capacidad3[5,7]
+                                   0                       15631 
+    85 capacidad3[5,8]
+                                3070                       24334 
+    86 capacidad3[5,9]
+                                   0                       11296 
+    87 capacidad3[5,10]
+                                   0                       21480 
+    88 capacidad3[5,11]
+                                1010                       21634 
+    89 capacidad3[5,12]
+                                   0                       11435 
+    90 capacidad3[5,13]
+                                   0                       26393 
+    91 capacidad3[5,14]
+                                   0                       18612 
+    92 capacidad3[5,15]
+                                1020                       20506 
+    93 capacidad3[6,1]
+                                   0                       24209 
+    94 capacidad3[6,2]
+                                   0                       11648 
+    95 capacidad3[6,3]
+                                   0                       23076 
+    96 capacidad3[6,4]
+                                   0                       26500 
+    97 capacidad3[6,5]
+                                   0                       17797 
+    98 capacidad3[6,6]
+                                5580                       15796 
+    99 capacidad3[6,7]
+                                   0                       11246 
+   100 capacidad3[6,8]
+                                   0                       28566 
+   101 capacidad3[6,9]
+                                   0                       26792 
+   102 capacidad3[6,10]
+                                   0                       20721 
+   103 capacidad3[6,11]
+                                   0                       16938 
+   104 capacidad3[6,12]
+                                   0                       21220 
+   105 capacidad3[6,13]
+                                   0                       13419 
+   106 capacidad3[6,14]
+                                6060                       21275 
+   107 capacidad3[6,15]
+                                   0                       12091 
+   108 capacidad3[7,1]
+                                   0                       12300 
+   109 capacidad3[7,2]
+                                   0                       21127 
+   110 capacidad3[7,3]
+                                   0                       26997 
+   111 capacidad3[7,4]
+                                   0                       19767 
+   112 capacidad3[7,5]
+                                   0                       26606 
+   113 capacidad3[7,6]
+                                   0                       14376 
+   114 capacidad3[7,7]
+                                   0                       21636 
+   115 capacidad3[7,8]
+                                   0                       10302 
+   116 capacidad3[7,9]
+                                   0                       18273 
+   117 capacidad3[7,10]
+                                   0                       19566 
+   118 capacidad3[7,11]
+                                   0                       19631 
+   119 capacidad3[7,12]
+                                   0                       26397 
+   120 capacidad3[7,13]
+                                   0                       22895 
+   121 capacidad3[7,14]
+                                   0                       21333 
+   122 capacidad3[7,15]
+                                   0                       18720 
+   123 capacidad3[8,1]
+                                   0                       25977 
+   124 capacidad3[8,2]
+                                   0                       18807 
+   125 capacidad3[8,3]
+                                   0                       11501 
+   126 capacidad3[8,4]
+                                   0                       24826 
+   127 capacidad3[8,5]
+                                   0                       21746 
+   128 capacidad3[8,6]
+                                   0                       15154 
+   129 capacidad3[8,7]
+                                   0                       27763 
+   130 capacidad3[8,8]
+                                   0                       26966 
+   131 capacidad3[8,9]
+                                   0                       10024 
+   132 capacidad3[8,10]
+                                   0                       15329 
+   133 capacidad3[8,11]
+                                   0                       20120 
+   134 capacidad3[8,12]
+                                   0                       13954 
+   135 capacidad3[8,13]
+                                   0                       15019 
+   136 capacidad3[8,14]
+                                   0                       12034 
+   137 capacidad3[8,15]
+                                   0                       11323 
+   138 capacidad3[9,1]
+                                   0                       21489 
+   139 capacidad3[9,2]
+                                   0                       21320 
+   140 capacidad3[9,3]
+                                   0                       23367 
+   141 capacidad3[9,4]
+                                   0                       21494 
+   142 capacidad3[9,5]
+                                   0                       26027 
+   143 capacidad3[9,6]
+                                   0                       20015 
+   144 capacidad3[9,7]
+                                   0                       26664 
+   145 capacidad3[9,8]
+                                   0                       22077 
+   146 capacidad3[9,9]
+                                   0                       12503 
+   147 capacidad3[9,10]
+                                   0                       21277 
+   148 capacidad3[9,11]
+                                   0                       29472 
+   149 capacidad3[9,12]
+                                   0                       12359 
+   150 capacidad3[9,13]
+                                   0                       15212 
+   151 capacidad3[9,14]
+                                   0                       24921 
+   152 capacidad3[9,15]
+                                   0                       26283 
+   153 capacidad3[10,1]
+                                   0                       25188 
+   154 capacidad3[10,2]
+                                   0                       13967 
+   155 capacidad3[10,3]
+                                   0                       19397 
+   156 capacidad3[10,4]
+                                   0                       14388 
+   157 capacidad3[10,5]
+                                   0                       28080 
+   158 capacidad3[10,6]
+                                   0                       27222 
+   159 capacidad3[10,7]
+                                   0                       29250 
+   160 capacidad3[10,8]
+                                   0                       24943 
+   161 capacidad3[10,9]
+                                   0                       27868 
+   162 capacidad3[10,10]
+                                   0                       25810 
+   163 capacidad3[10,11]
+                                   0                       12143 
+   164 capacidad3[10,12]
+                                   0                       24657 
+   165 capacidad3[10,13]
+                                   0                       14433 
+   166 capacidad3[10,14]
+                                   0                       17692 
+   167 capacidad3[10,15]
+                                   0                       27479 
+   168 capacidad3[11,1]
+                                   0                       13077 
+   169 capacidad3[11,2]
+                                   0                       10704 
+   170 capacidad3[11,3]
+                                   0                       29002 
+   171 capacidad3[11,4]
+                                   0                       25909 
+   172 capacidad3[11,5]
+                                   0                       26121 
+   173 capacidad3[11,6]
+                                   0                       13193 
+   174 capacidad3[11,7]
+                                   0                       18611 
+   175 capacidad3[11,8]
+                                   0                       25385 
+   176 capacidad3[11,9]
+                                   0                       14995 
+   177 capacidad3[11,10]
+                                   0                       10195 
+   178 capacidad3[11,11]
+                                   0                       28474 
+   179 capacidad3[11,12]
+                                   0                       15765 
+   180 capacidad3[11,13]
+                                   0                       26226 
+   181 capacidad3[11,14]
+                                   0                       13483 
+   182 capacidad3[11,15]
+                                   0                       10104 
+   183 capacidad3[12,1]
+                                   0                       14718 
+   184 capacidad3[12,2]
+                                   0                       17928 
+   185 capacidad3[12,3]
+                                   0                       21579 
+   186 capacidad3[12,4]
+                                9700                       25045 
+   187 capacidad3[12,5]
+                                   0                       25294 
+   188 capacidad3[12,6]
+                                   0                       25744 
+   189 capacidad3[12,7]
+                                   0                       10986 
+   190 capacidad3[12,8]
+                                   0                       12269 
+   191 capacidad3[12,9]
+                                   0                       12319 
+   192 capacidad3[12,10]
+                                   0                       13450 
+   193 capacidad3[12,11]
+                                   0                       29543 
+   194 capacidad3[12,12]
+                                6800                       19595 
+   195 capacidad3[12,13]
+                                   0                       21281 
+   196 capacidad3[12,14]
+                                   0                       24370 
+   197 capacidad3[12,15]
+                                   0                       29124 
+   198 capacidad3[13,1]
+                                   0                       28123 
+   199 capacidad3[13,2]
+                                   0                       25778 
+   200 capacidad3[13,3]
+                                   0                       17113 
+   201 capacidad3[13,4]
+                                   0                       27530 
+   202 capacidad3[13,5]
+                                   0                       24667 
+   203 capacidad3[13,6]
+                                   0                       15162 
+   204 capacidad3[13,7]
+                                   0                       23356 
+   205 capacidad3[13,8]
+                                   0                       29262 
+   206 capacidad3[13,9]
+                                   0                       21812 
+   207 capacidad3[13,10]
+                                   0                       25470 
+   208 capacidad3[13,11]
+                                   0                       25326 
+   209 capacidad3[13,12]
+                                   0                       25869 
+   210 capacidad3[13,13]
+                                   0                       24010 
+   211 capacidad3[13,14]
+                                   0                       28366 
+   212 capacidad3[13,15]
+                                   0                       27040 
+   213 capacidad3[14,1]
+                                   0                       10246 
+   214 capacidad3[14,2]
+                                   0                       24891 
+   215 capacidad3[14,3]
+                                   0                       17671 
+   216 capacidad3[14,4]
+                                   0                       19771 
+   217 capacidad3[14,5]
+                                   0                       17004 
+   218 capacidad3[14,6]
+                                   0                       11249 
+   219 capacidad3[14,7]
+                                   0                       19010 
+   220 capacidad3[14,8]
+                                   0                       27982 
+   221 capacidad3[14,9]
+                                   0                       26942 
+   222 capacidad3[14,10]
+                                   0                       18964 
+   223 capacidad3[14,11]
+                                   0                       11960 
+   224 capacidad3[14,12]
+                                   0                       20769 
+   225 capacidad3[14,13]
+                                   0                       16033 
+   226 capacidad3[14,14]
+                                   0                       24913 
+   227 capacidad3[14,15]
+                                   0                       22330 
+   228 capacidad3[15,1]
+                                   0                       13822 
+   229 capacidad3[15,2]
+                                   0                       25110 
+   230 capacidad3[15,3]
+                                   0                       21342 
+   231 capacidad3[15,4]
+                                   0                       19975 
+   232 capacidad3[15,5]
+                                   0                       20591 
+   233 capacidad3[15,6]
+                                   0                       18461 
+   234 capacidad3[15,7]
+                                   0                       12620 
+   235 capacidad3[15,8]
+                                   0                       20176 
+   236 capacidad3[15,9]
+                                   0                       24089 
+   237 capacidad3[15,10]
+                                   0                       11083 
+   238 capacidad3[15,11]
+                                   0                       29568 
+   239 capacidad3[15,12]
+                                   0                       15947 
+   240 capacidad3[15,13]
+                                   0                       26616 
+   241 capacidad3[15,14]
+                                   0                       22355 
+   242 capacidad3[15,15]
+                                   0                       11409 
+   243 demanda[1]               2990          2990               
+   244 demanda[2]               7830          7830               
+   245 demanda[3]               2910          2910               
+   246 demanda[4]               9700          9700               
+   247 demanda[5]               3810          3810               
+   248 demanda[6]               5580          5580               
+   249 demanda[7]               6650          6650               
+   250 demanda[8]               3070          3070               
+   251 demanda[9]               3070          3070               
+   252 demanda[10]              6130          6130               
+   253 demanda[11]              1010          1010               
+   254 demanda[12]              6800          6800               
+   255 demanda[13]              2070          2070               
+   256 demanda[14]              6060          6060               
+   257 demanda[15]              1020          1020               
+   258 relacionFabricaCamino[1,1]
+                                   0                          -0 
+   259 relacionFabricaCamino[1,2]
+                                  -1                          -0 
+   260 relacionFabricaCamino[1,3]
+                                   0                          -0 
+   261 relacionFabricaCamino[1,4]
+                                  -1                          -0 
+   262 relacionFabricaCamino[1,5]
+                                  -1                          -0 
+   263 relacionFabricaCamino[1,6]
+                                  -1                          -0 
+   264 relacionFabricaCamino[1,7]
+                                  -1                          -0 
+   265 relacionFabricaCamino[1,8]
+                                  -1                          -0 
+   266 relacionFabricaCamino[1,9]
+                                   0                          -0 
+   267 relacionFabricaCamino[1,10]
+                                   0                          -0 
+   268 relacionFabricaCamino[1,11]
+                                  -1                          -0 
+   269 relacionFabricaCamino[1,12]
+                                  -1                          -0 
+   270 relacionFabricaCamino[1,13]
+                                  -1                          -0 
+   271 relacionFabricaCamino[1,14]
+                                  -1                          -0 
+   272 relacionFabricaCamino[1,15]
+                                  -1                          -0 
+   273 relacionFabricaCamino[2,1]
+                                  -1                          -0 
+   274 relacionFabricaCamino[2,2]
+                                   0                          -0 
+   275 relacionFabricaCamino[2,3]
+                                  -1                          -0 
+   276 relacionFabricaCamino[2,4]
+                                  -1                          -0 
+   277 relacionFabricaCamino[2,5]
+                                  -1                          -0 
+   278 relacionFabricaCamino[2,6]
+                                  -1                          -0 
+   279 relacionFabricaCamino[2,7]
+                                   0                          -0 
+   280 relacionFabricaCamino[2,8]
+                                  -1                          -0 
+   281 relacionFabricaCamino[2,9]
+                                  -1                          -0 
+   282 relacionFabricaCamino[2,10]
+                                  -1                          -0 
+   283 relacionFabricaCamino[2,11]
+                                  -1                          -0 
+   284 relacionFabricaCamino[2,12]
+                                  -1                          -0 
+   285 relacionFabricaCamino[2,13]
+                                   0                          -0 
+   286 relacionFabricaCamino[2,14]
+                                  -1                          -0 
+   287 relacionFabricaCamino[2,15]
+                                  -1                          -0 
+   288 relacionFabricaCamino[3,1]
+                                   0                          -0 
+   289 relacionFabricaCamino[3,2]
+                                   0                          -0 
+   290 relacionFabricaCamino[3,3]
+                                   0                          -0 
+   291 relacionFabricaCamino[3,4]
+                                   0                          -0 
+   292 relacionFabricaCamino[3,5]
+                                   0                          -0 
+   293 relacionFabricaCamino[3,6]
+                                   0                          -0 
+   294 relacionFabricaCamino[3,7]
+                                   0                          -0 
+   295 relacionFabricaCamino[3,8]
+                                   0                          -0 
+   296 relacionFabricaCamino[3,9]
+                                   0                          -0 
+   297 relacionFabricaCamino[3,10]
+                                   0                          -0 
+   298 relacionFabricaCamino[3,11]
+                                   0                          -0 
+   299 relacionFabricaCamino[3,12]
+                                   0                          -0 
+   300 relacionFabricaCamino[3,13]
+                                   0                          -0 
+   301 relacionFabricaCamino[3,14]
+                                   0                          -0 
+   302 relacionFabricaCamino[3,15]
+                                   0                          -0 
+   303 relacionFabricaCamino[4,1]
+                                   0                          -0 
+   304 relacionFabricaCamino[4,2]
+                                   0                          -0 
+   305 relacionFabricaCamino[4,3]
+                                   0                          -0 
+   306 relacionFabricaCamino[4,4]
+                                   0                          -0 
+   307 relacionFabricaCamino[4,5]
+                                   0                          -0 
+   308 relacionFabricaCamino[4,6]
+                                   0                          -0 
+   309 relacionFabricaCamino[4,7]
+                                   0                          -0 
+   310 relacionFabricaCamino[4,8]
+                                   0                          -0 
+   311 relacionFabricaCamino[4,9]
+                                   0                          -0 
+   312 relacionFabricaCamino[4,10]
+                                   0                          -0 
+   313 relacionFabricaCamino[4,11]
+                                   0                          -0 
+   314 relacionFabricaCamino[4,12]
+                                   0                          -0 
+   315 relacionFabricaCamino[4,13]
+                                   0                          -0 
+   316 relacionFabricaCamino[4,14]
+                                   0                          -0 
+   317 relacionFabricaCamino[4,15]
+                                   0                          -0 
+   318 relacionFabricaCamino[5,1]
+                                  -1                          -0 
+   319 relacionFabricaCamino[5,2]
+                                  -1                          -0 
+   320 relacionFabricaCamino[5,3]
+                                  -1                          -0 
+   321 relacionFabricaCamino[5,4]
+                                  -1                          -0 
+   322 relacionFabricaCamino[5,5]
+                                   0                          -0 
+   323 relacionFabricaCamino[5,6]
+                                  -1                          -0 
+   324 relacionFabricaCamino[5,7]
+                                  -1                          -0 
+   325 relacionFabricaCamino[5,8]
+                                   0                          -0 
+   326 relacionFabricaCamino[5,9]
+                                  -1                          -0 
+   327 relacionFabricaCamino[5,10]
+                                  -1                          -0 
+   328 relacionFabricaCamino[5,11]
+                                   0                          -0 
+   329 relacionFabricaCamino[5,12]
+                                  -1                          -0 
+   330 relacionFabricaCamino[5,13]
+                                  -1                          -0 
+   331 relacionFabricaCamino[5,14]
+                                  -1                          -0 
+   332 relacionFabricaCamino[5,15]
+                                   0                          -0 
+   333 relacionFabricaCamino[6,1]
+                                  -1                          -0 
+   334 relacionFabricaCamino[6,2]
+                                  -1                          -0 
+   335 relacionFabricaCamino[6,3]
+                                  -1                          -0 
+   336 relacionFabricaCamino[6,4]
+                                  -1                          -0 
+   337 relacionFabricaCamino[6,5]
+                                  -1                          -0 
+   338 relacionFabricaCamino[6,6]
+                                   0                          -0 
+   339 relacionFabricaCamino[6,7]
+                                  -1                          -0 
+   340 relacionFabricaCamino[6,8]
+                                  -1                          -0 
+   341 relacionFabricaCamino[6,9]
+                                  -1                          -0 
+   342 relacionFabricaCamino[6,10]
+                                  -1                          -0 
+   343 relacionFabricaCamino[6,11]
+                                  -1                          -0 
+   344 relacionFabricaCamino[6,12]
+                                  -1                          -0 
+   345 relacionFabricaCamino[6,13]
+                                  -1                          -0 
+   346 relacionFabricaCamino[6,14]
+                                   0                          -0 
+   347 relacionFabricaCamino[6,15]
+                                  -1                          -0 
+   348 relacionFabricaCamino[7,1]
+                                   0                          -0 
+   349 relacionFabricaCamino[7,2]
+                                   0                          -0 
+   350 relacionFabricaCamino[7,3]
+                                   0                          -0 
+   351 relacionFabricaCamino[7,4]
+                                   0                          -0 
+   352 relacionFabricaCamino[7,5]
+                                   0                          -0 
+   353 relacionFabricaCamino[7,6]
+                                   0                          -0 
+   354 relacionFabricaCamino[7,7]
+                                   0                          -0 
+   355 relacionFabricaCamino[7,8]
+                                   0                          -0 
+   356 relacionFabricaCamino[7,9]
+                                   0                          -0 
+   357 relacionFabricaCamino[7,10]
+                                   0                          -0 
+   358 relacionFabricaCamino[7,11]
+                                   0                          -0 
+   359 relacionFabricaCamino[7,12]
+                                   0                          -0 
+   360 relacionFabricaCamino[7,13]
+                                   0                          -0 
+   361 relacionFabricaCamino[7,14]
+                                   0                          -0 
+   362 relacionFabricaCamino[7,15]
+                                   0                          -0 
+   363 relacionFabricaCamino[8,1]
+                                   0                          -0 
+   364 relacionFabricaCamino[8,2]
+                                   0                          -0 
+   365 relacionFabricaCamino[8,3]
+                                   0                          -0 
+   366 relacionFabricaCamino[8,4]
+                                   0                          -0 
+   367 relacionFabricaCamino[8,5]
+                                   0                          -0 
+   368 relacionFabricaCamino[8,6]
+                                   0                          -0 
+   369 relacionFabricaCamino[8,7]
+                                   0                          -0 
+   370 relacionFabricaCamino[8,8]
+                                   0                          -0 
+   371 relacionFabricaCamino[8,9]
+                                   0                          -0 
+   372 relacionFabricaCamino[8,10]
+                                   0                          -0 
+   373 relacionFabricaCamino[8,11]
+                                   0                          -0 
+   374 relacionFabricaCamino[8,12]
+                                   0                          -0 
+   375 relacionFabricaCamino[8,13]
+                                   0                          -0 
+   376 relacionFabricaCamino[8,14]
+                                   0                          -0 
+   377 relacionFabricaCamino[8,15]
+                                   0                          -0 
+   378 relacionFabricaCamino[9,1]
+                                   0                          -0 
+   379 relacionFabricaCamino[9,2]
+                                   0                          -0 
+   380 relacionFabricaCamino[9,3]
+                                   0                          -0 
+   381 relacionFabricaCamino[9,4]
+                                   0                          -0 
+   382 relacionFabricaCamino[9,5]
+                                   0                          -0 
+   383 relacionFabricaCamino[9,6]
+                                   0                          -0 
+   384 relacionFabricaCamino[9,7]
+                                   0                          -0 
+   385 relacionFabricaCamino[9,8]
+                                   0                          -0 
+   386 relacionFabricaCamino[9,9]
+                                   0                          -0 
+   387 relacionFabricaCamino[9,10]
+                                   0                          -0 
+   388 relacionFabricaCamino[9,11]
+                                   0                          -0 
+   389 relacionFabricaCamino[9,12]
+                                   0                          -0 
+   390 relacionFabricaCamino[9,13]
+                                   0                          -0 
+   391 relacionFabricaCamino[9,14]
+                                   0                          -0 
+   392 relacionFabricaCamino[9,15]
+                                   0                          -0 
+   393 relacionFabricaCamino[10,1]
+                                   0                          -0 
+   394 relacionFabricaCamino[10,2]
+                                   0                          -0 
+   395 relacionFabricaCamino[10,3]
+                                   0                          -0 
+   396 relacionFabricaCamino[10,4]
+                                   0                          -0 
+   397 relacionFabricaCamino[10,5]
+                                   0                          -0 
+   398 relacionFabricaCamino[10,6]
+                                   0                          -0 
+   399 relacionFabricaCamino[10,7]
+                                   0                          -0 
+   400 relacionFabricaCamino[10,8]
+                                   0                          -0 
+   401 relacionFabricaCamino[10,9]
+                                   0                          -0 
+   402 relacionFabricaCamino[10,10]
+                                   0                          -0 
+   403 relacionFabricaCamino[10,11]
+                                   0                          -0 
+   404 relacionFabricaCamino[10,12]
+                                   0                          -0 
+   405 relacionFabricaCamino[10,13]
+                                   0                          -0 
+   406 relacionFabricaCamino[10,14]
+                                   0                          -0 
+   407 relacionFabricaCamino[10,15]
+                                   0                          -0 
+   408 relacionFabricaCamino[11,1]
+                                   0                          -0 
+   409 relacionFabricaCamino[11,2]
+                                   0                          -0 
+   410 relacionFabricaCamino[11,3]
+                                   0                          -0 
+   411 relacionFabricaCamino[11,4]
+                                   0                          -0 
+   412 relacionFabricaCamino[11,5]
+                                   0                          -0 
+   413 relacionFabricaCamino[11,6]
+                                   0                          -0 
+   414 relacionFabricaCamino[11,7]
+                                   0                          -0 
+   415 relacionFabricaCamino[11,8]
+                                   0                          -0 
+   416 relacionFabricaCamino[11,9]
+                                   0                          -0 
+   417 relacionFabricaCamino[11,10]
+                                   0                          -0 
+   418 relacionFabricaCamino[11,11]
+                                   0                          -0 
+   419 relacionFabricaCamino[11,12]
+                                   0                          -0 
+   420 relacionFabricaCamino[11,13]
+                                   0                          -0 
+   421 relacionFabricaCamino[11,14]
+                                   0                          -0 
+   422 relacionFabricaCamino[11,15]
+                                   0                          -0 
+   423 relacionFabricaCamino[12,1]
+                                  -1                          -0 
+   424 relacionFabricaCamino[12,2]
+                                  -1                          -0 
+   425 relacionFabricaCamino[12,3]
+                                  -1                          -0 
+   426 relacionFabricaCamino[12,4]
+                                   0                          -0 
+   427 relacionFabricaCamino[12,5]
+                                  -1                          -0 
+   428 relacionFabricaCamino[12,6]
+                                  -1                          -0 
+   429 relacionFabricaCamino[12,7]
+                                  -1                          -0 
+   430 relacionFabricaCamino[12,8]
+                                  -1                          -0 
+   431 relacionFabricaCamino[12,9]
+                                  -1                          -0 
+   432 relacionFabricaCamino[12,10]
+                                  -1                          -0 
+   433 relacionFabricaCamino[12,11]
+                                  -1                          -0 
+   434 relacionFabricaCamino[12,12]
+                                   0                          -0 
+   435 relacionFabricaCamino[12,13]
+                                  -1                          -0 
+   436 relacionFabricaCamino[12,14]
+                                  -1                          -0 
+   437 relacionFabricaCamino[12,15]
+                                  -1                          -0 
+   438 relacionFabricaCamino[13,1]
+                                   0                          -0 
+   439 relacionFabricaCamino[13,2]
+                                   0                          -0 
+   440 relacionFabricaCamino[13,3]
+                                   0                          -0 
+   441 relacionFabricaCamino[13,4]
+                                   0                          -0 
+   442 relacionFabricaCamino[13,5]
+                                   0                          -0 
+   443 relacionFabricaCamino[13,6]
+                                   0                          -0 
+   444 relacionFabricaCamino[13,7]
+                                   0                          -0 
+   445 relacionFabricaCamino[13,8]
+                                   0                          -0 
+   446 relacionFabricaCamino[13,9]
+                                   0                          -0 
+   447 relacionFabricaCamino[13,10]
+                                   0                          -0 
+   448 relacionFabricaCamino[13,11]
+                                   0                          -0 
+   449 relacionFabricaCamino[13,12]
+                                   0                          -0 
+   450 relacionFabricaCamino[13,13]
+                                   0                          -0 
+   451 relacionFabricaCamino[13,14]
+                                   0                          -0 
+   452 relacionFabricaCamino[13,15]
+                                   0                          -0 
+   453 relacionFabricaCamino[14,1]
+                                   0                          -0 
+   454 relacionFabricaCamino[14,2]
+                                   0                          -0 
+   455 relacionFabricaCamino[14,3]
+                                   0                          -0 
+   456 relacionFabricaCamino[14,4]
+                                   0                          -0 
+   457 relacionFabricaCamino[14,5]
+                                   0                          -0 
+   458 relacionFabricaCamino[14,6]
+                                   0                          -0 
+   459 relacionFabricaCamino[14,7]
+                                   0                          -0 
+   460 relacionFabricaCamino[14,8]
+                                   0                          -0 
+   461 relacionFabricaCamino[14,9]
+                                   0                          -0 
+   462 relacionFabricaCamino[14,10]
+                                   0                          -0 
+   463 relacionFabricaCamino[14,11]
+                                   0                          -0 
+   464 relacionFabricaCamino[14,12]
+                                   0                          -0 
+   465 relacionFabricaCamino[14,13]
+                                   0                          -0 
+   466 relacionFabricaCamino[14,14]
+                                   0                          -0 
+   467 relacionFabricaCamino[14,15]
+                                   0                          -0 
+   468 relacionFabricaCamino[15,1]
+                                   0                          -0 
+   469 relacionFabricaCamino[15,2]
+                                   0                          -0 
+   470 relacionFabricaCamino[15,3]
+                                   0                          -0 
+   471 relacionFabricaCamino[15,4]
+                                   0                          -0 
+   472 relacionFabricaCamino[15,5]
+                                   0                          -0 
+   473 relacionFabricaCamino[15,6]
+                                   0                          -0 
+   474 relacionFabricaCamino[15,7]
+                                   0                          -0 
+   475 relacionFabricaCamino[15,8]
+                                   0                          -0 
+   476 relacionFabricaCamino[15,9]
+                                   0                          -0 
+   477 relacionFabricaCamino[15,10]
+                                   0                          -0 
+   478 relacionFabricaCamino[15,11]
+                                   0                          -0 
+   479 relacionFabricaCamino[15,12]
+                                   0                          -0 
+   480 relacionFabricaCamino[15,13]
+                                   0                          -0 
+   481 relacionFabricaCamino[15,14]
+                                   0                          -0 
+   482 relacionFabricaCamino[15,15]
+                                   0                          -0 
+   483 relacionFabricasCaminos2[1]
+                                  -3                          -0 
+   484 relacionFabricasCaminos2[2]
+                                  -2                          -0 
+   485 relacionFabricasCaminos2[3]
+                                   0                          -0 
+   486 relacionFabricasCaminos2[4]
+                                   0                          -0 
+   487 relacionFabricasCaminos2[5]
+                                  -3                          -0 
+   488 relacionFabricasCaminos2[6]
+                                  -1                          -0 
+   489 relacionFabricasCaminos2[7]
+                                   0                          -0 
+   490 relacionFabricasCaminos2[8]
+                                   0                          -0 
+   491 relacionFabricasCaminos2[9]
+                                   0                          -0 
+   492 relacionFabricasCaminos2[10]
+                                   0                          -0 
+   493 relacionFabricasCaminos2[11]
+                                   0                          -0 
+   494 relacionFabricasCaminos2[12]
+                                  -1                          -0 
+   495 relacionFabricasCaminos2[13]
+                                   0                          -0 
+   496 relacionFabricasCaminos2[14]
+                                   0                          -0 
+   497 relacionFabricasCaminos2[15]
+                                   0                          -0 
+   498 noMandarPorDondeNoHayCamino[1,1]
+                             -997009                          -0 
+   499 noMandarPorDondeNoHayCamino[1,2]
+                                   0                          -0 
+   500 noMandarPorDondeNoHayCamino[1,3]
+                             -997089                          -0 
+   501 noMandarPorDondeNoHayCamino[1,4]
+                                   0                          -0 
+   502 noMandarPorDondeNoHayCamino[1,5]
+                                   0                          -0 
+   503 noMandarPorDondeNoHayCamino[1,6]
+                                   0                          -0 
+   504 noMandarPorDondeNoHayCamino[1,7]
+                                   0                          -0 
+   505 noMandarPorDondeNoHayCamino[1,8]
+                                   0                          -0 
+   506 noMandarPorDondeNoHayCamino[1,9]
+                             -996929                          -0 
+   507 noMandarPorDondeNoHayCamino[1,10]
+                             -993869                          -0 
+   508 noMandarPorDondeNoHayCamino[1,11]
+                                   0                          -0 
+   509 noMandarPorDondeNoHayCamino[1,12]
+                                   0                          -0 
+   510 noMandarPorDondeNoHayCamino[1,13]
+                                   0                          -0 
+   511 noMandarPorDondeNoHayCamino[1,14]
+                                   0                          -0 
+   512 noMandarPorDondeNoHayCamino[1,15]
+                                   0                          -0 
+   513 noMandarPorDondeNoHayCamino[2,1]
+                                   0                          -0 
+   514 noMandarPorDondeNoHayCamino[2,2]
+                             -992169                          -0 
+   515 noMandarPorDondeNoHayCamino[2,3]
+                                   0                          -0 
+   516 noMandarPorDondeNoHayCamino[2,4]
+                                   0                          -0 
+   517 noMandarPorDondeNoHayCamino[2,5]
+                                   0                          -0 
+   518 noMandarPorDondeNoHayCamino[2,6]
+                                   0                          -0 
+   519 noMandarPorDondeNoHayCamino[2,7]
+                             -993349                          -0 
+   520 noMandarPorDondeNoHayCamino[2,8]
+                                   0                          -0 
+   521 noMandarPorDondeNoHayCamino[2,9]
+                                   0                          -0 
+   522 noMandarPorDondeNoHayCamino[2,10]
+                                   0                          -0 
+   523 noMandarPorDondeNoHayCamino[2,11]
+                                   0                          -0 
+   524 noMandarPorDondeNoHayCamino[2,12]
+                                   0                          -0 
+   525 noMandarPorDondeNoHayCamino[2,13]
+                             -997929                          -0 
+   526 noMandarPorDondeNoHayCamino[2,14]
+                                   0                          -0 
+   527 noMandarPorDondeNoHayCamino[2,15]
+                                   0                          -0 
+   528 noMandarPorDondeNoHayCamino[3,1]
+                                   0                          -0 
+   529 noMandarPorDondeNoHayCamino[3,2]
+                                   0                          -0 
+   530 noMandarPorDondeNoHayCamino[3,3]
+                                   0                          -0 
+   531 noMandarPorDondeNoHayCamino[3,4]
+                                   0                          -0 
+   532 noMandarPorDondeNoHayCamino[3,5]
+                                   0                          -0 
+   533 noMandarPorDondeNoHayCamino[3,6]
+                                   0                          -0 
+   534 noMandarPorDondeNoHayCamino[3,7]
+                                   0                          -0 
+   535 noMandarPorDondeNoHayCamino[3,8]
+                                   0                          -0 
+   536 noMandarPorDondeNoHayCamino[3,9]
+                                   0                          -0 
+   537 noMandarPorDondeNoHayCamino[3,10]
+                                   0                          -0 
+   538 noMandarPorDondeNoHayCamino[3,11]
+                                   0                          -0 
+   539 noMandarPorDondeNoHayCamino[3,12]
+                                   0                          -0 
+   540 noMandarPorDondeNoHayCamino[3,13]
+                                   0                          -0 
+   541 noMandarPorDondeNoHayCamino[3,14]
+                                   0                          -0 
+   542 noMandarPorDondeNoHayCamino[3,15]
+                                   0                          -0 
+   543 noMandarPorDondeNoHayCamino[4,1]
+                                   0                          -0 
+   544 noMandarPorDondeNoHayCamino[4,2]
+                                   0                          -0 
+   545 noMandarPorDondeNoHayCamino[4,3]
+                                   0                          -0 
+   546 noMandarPorDondeNoHayCamino[4,4]
+                                   0                          -0 
+   547 noMandarPorDondeNoHayCamino[4,5]
+                                   0                          -0 
+   548 noMandarPorDondeNoHayCamino[4,6]
+                                   0                          -0 
+   549 noMandarPorDondeNoHayCamino[4,7]
+                                   0                          -0 
+   550 noMandarPorDondeNoHayCamino[4,8]
+                                   0                          -0 
+   551 noMandarPorDondeNoHayCamino[4,9]
+                                   0                          -0 
+   552 noMandarPorDondeNoHayCamino[4,10]
+                                   0                          -0 
+   553 noMandarPorDondeNoHayCamino[4,11]
+                                   0                          -0 
+   554 noMandarPorDondeNoHayCamino[4,12]
+                                   0                          -0 
+   555 noMandarPorDondeNoHayCamino[4,13]
+                                   0                          -0 
+   556 noMandarPorDondeNoHayCamino[4,14]
+                                   0                          -0 
+   557 noMandarPorDondeNoHayCamino[4,15]
+                                   0                          -0 
+   558 noMandarPorDondeNoHayCamino[5,1]
+                                   0                          -0 
+   559 noMandarPorDondeNoHayCamino[5,2]
+                                   0                          -0 
+   560 noMandarPorDondeNoHayCamino[5,3]
+                                   0                          -0 
+   561 noMandarPorDondeNoHayCamino[5,4]
+                                   0                          -0 
+   562 noMandarPorDondeNoHayCamino[5,5]
+                             -996189                          -0 
+   563 noMandarPorDondeNoHayCamino[5,6]
+                                   0                          -0 
+   564 noMandarPorDondeNoHayCamino[5,7]
+                                   0                          -0 
+   565 noMandarPorDondeNoHayCamino[5,8]
+                             -996929                          -0 
+   566 noMandarPorDondeNoHayCamino[5,9]
+                                   0                          -0 
+   567 noMandarPorDondeNoHayCamino[5,10]
+                                   0                          -0 
+   568 noMandarPorDondeNoHayCamino[5,11]
+                             -998989                          -0 
+   569 noMandarPorDondeNoHayCamino[5,12]
+                                   0                          -0 
+   570 noMandarPorDondeNoHayCamino[5,13]
+                                   0                          -0 
+   571 noMandarPorDondeNoHayCamino[5,14]
+                                   0                          -0 
+   572 noMandarPorDondeNoHayCamino[5,15]
+                             -998979                          -0 
+   573 noMandarPorDondeNoHayCamino[6,1]
+                                   0                          -0 
+   574 noMandarPorDondeNoHayCamino[6,2]
+                                   0                          -0 
+   575 noMandarPorDondeNoHayCamino[6,3]
+                                   0                          -0 
+   576 noMandarPorDondeNoHayCamino[6,4]
+                                   0                          -0 
+   577 noMandarPorDondeNoHayCamino[6,5]
+                                   0                          -0 
+   578 noMandarPorDondeNoHayCamino[6,6]
+                             -994419                          -0 
+   579 noMandarPorDondeNoHayCamino[6,7]
+                                   0                          -0 
+   580 noMandarPorDondeNoHayCamino[6,8]
+                                   0                          -0 
+   581 noMandarPorDondeNoHayCamino[6,9]
+                                   0                          -0 
+   582 noMandarPorDondeNoHayCamino[6,10]
+                                   0                          -0 
+   583 noMandarPorDondeNoHayCamino[6,11]
+                                   0                          -0 
+   584 noMandarPorDondeNoHayCamino[6,12]
+                                   0                          -0 
+   585 noMandarPorDondeNoHayCamino[6,13]
+                                   0                          -0 
+   586 noMandarPorDondeNoHayCamino[6,14]
+                             -993939                          -0 
+   587 noMandarPorDondeNoHayCamino[6,15]
+                                   0                          -0 
+   588 noMandarPorDondeNoHayCamino[7,1]
+                                   0                          -0 
+   589 noMandarPorDondeNoHayCamino[7,2]
+                                   0                          -0 
+   590 noMandarPorDondeNoHayCamino[7,3]
+                                   0                          -0 
+   591 noMandarPorDondeNoHayCamino[7,4]
+                                   0                          -0 
+   592 noMandarPorDondeNoHayCamino[7,5]
+                                   0                          -0 
+   593 noMandarPorDondeNoHayCamino[7,6]
+                                   0                          -0 
+   594 noMandarPorDondeNoHayCamino[7,7]
+                                   0                          -0 
+   595 noMandarPorDondeNoHayCamino[7,8]
+                                   0                          -0 
+   596 noMandarPorDondeNoHayCamino[7,9]
+                                   0                          -0 
+   597 noMandarPorDondeNoHayCamino[7,10]
+                                   0                          -0 
+   598 noMandarPorDondeNoHayCamino[7,11]
+                                   0                          -0 
+   599 noMandarPorDondeNoHayCamino[7,12]
+                                   0                          -0 
+   600 noMandarPorDondeNoHayCamino[7,13]
+                                   0                          -0 
+   601 noMandarPorDondeNoHayCamino[7,14]
+                                   0                          -0 
+   602 noMandarPorDondeNoHayCamino[7,15]
+                                   0                          -0 
+   603 noMandarPorDondeNoHayCamino[8,1]
+                                   0                          -0 
+   604 noMandarPorDondeNoHayCamino[8,2]
+                                   0                          -0 
+   605 noMandarPorDondeNoHayCamino[8,3]
+                                   0                          -0 
+   606 noMandarPorDondeNoHayCamino[8,4]
+                                   0                          -0 
+   607 noMandarPorDondeNoHayCamino[8,5]
+                                   0                          -0 
+   608 noMandarPorDondeNoHayCamino[8,6]
+                                   0                          -0 
+   609 noMandarPorDondeNoHayCamino[8,7]
+                                   0                          -0 
+   610 noMandarPorDondeNoHayCamino[8,8]
+                                   0                          -0 
+   611 noMandarPorDondeNoHayCamino[8,9]
+                                   0                          -0 
+   612 noMandarPorDondeNoHayCamino[8,10]
+                                   0                          -0 
+   613 noMandarPorDondeNoHayCamino[8,11]
+                                   0                          -0 
+   614 noMandarPorDondeNoHayCamino[8,12]
+                                   0                          -0 
+   615 noMandarPorDondeNoHayCamino[8,13]
+                                   0                          -0 
+   616 noMandarPorDondeNoHayCamino[8,14]
+                                   0                          -0 
+   617 noMandarPorDondeNoHayCamino[8,15]
+                                   0                          -0 
+   618 noMandarPorDondeNoHayCamino[9,1]
+                                   0                          -0 
+   619 noMandarPorDondeNoHayCamino[9,2]
+                                   0                          -0 
+   620 noMandarPorDondeNoHayCamino[9,3]
+                                   0                          -0 
+   621 noMandarPorDondeNoHayCamino[9,4]
+                                   0                          -0 
+   622 noMandarPorDondeNoHayCamino[9,5]
+                                   0                          -0 
+   623 noMandarPorDondeNoHayCamino[9,6]
+                                   0                          -0 
+   624 noMandarPorDondeNoHayCamino[9,7]
+                                   0                          -0 
+   625 noMandarPorDondeNoHayCamino[9,8]
+                                   0                          -0 
+   626 noMandarPorDondeNoHayCamino[9,9]
+                                   0                          -0 
+   627 noMandarPorDondeNoHayCamino[9,10]
+                                   0                          -0 
+   628 noMandarPorDondeNoHayCamino[9,11]
+                                   0                          -0 
+   629 noMandarPorDondeNoHayCamino[9,12]
+                                   0                          -0 
+   630 noMandarPorDondeNoHayCamino[9,13]
+                                   0                          -0 
+   631 noMandarPorDondeNoHayCamino[9,14]
+                                   0                          -0 
+   632 noMandarPorDondeNoHayCamino[9,15]
+                                   0                          -0 
+   633 noMandarPorDondeNoHayCamino[10,1]
+                                   0                          -0 
+   634 noMandarPorDondeNoHayCamino[10,2]
+                                   0                          -0 
+   635 noMandarPorDondeNoHayCamino[10,3]
+                                   0                          -0 
+   636 noMandarPorDondeNoHayCamino[10,4]
+                                   0                          -0 
+   637 noMandarPorDondeNoHayCamino[10,5]
+                                   0                          -0 
+   638 noMandarPorDondeNoHayCamino[10,6]
+                                   0                          -0 
+   639 noMandarPorDondeNoHayCamino[10,7]
+                                   0                          -0 
+   640 noMandarPorDondeNoHayCamino[10,8]
+                                   0                          -0 
+   641 noMandarPorDondeNoHayCamino[10,9]
+                                   0                          -0 
+   642 noMandarPorDondeNoHayCamino[10,10]
+                                   0                          -0 
+   643 noMandarPorDondeNoHayCamino[10,11]
+                                   0                          -0 
+   644 noMandarPorDondeNoHayCamino[10,12]
+                                   0                          -0 
+   645 noMandarPorDondeNoHayCamino[10,13]
+                                   0                          -0 
+   646 noMandarPorDondeNoHayCamino[10,14]
+                                   0                          -0 
+   647 noMandarPorDondeNoHayCamino[10,15]
+                                   0                          -0 
+   648 noMandarPorDondeNoHayCamino[11,1]
+                                   0                          -0 
+   649 noMandarPorDondeNoHayCamino[11,2]
+                                   0                          -0 
+   650 noMandarPorDondeNoHayCamino[11,3]
+                                   0                          -0 
+   651 noMandarPorDondeNoHayCamino[11,4]
+                                   0                          -0 
+   652 noMandarPorDondeNoHayCamino[11,5]
+                                   0                          -0 
+   653 noMandarPorDondeNoHayCamino[11,6]
+                                   0                          -0 
+   654 noMandarPorDondeNoHayCamino[11,7]
+                                   0                          -0 
+   655 noMandarPorDondeNoHayCamino[11,8]
+                                   0                          -0 
+   656 noMandarPorDondeNoHayCamino[11,9]
+                                   0                          -0 
+   657 noMandarPorDondeNoHayCamino[11,10]
+                                   0                          -0 
+   658 noMandarPorDondeNoHayCamino[11,11]
+                                   0                          -0 
+   659 noMandarPorDondeNoHayCamino[11,12]
+                                   0                          -0 
+   660 noMandarPorDondeNoHayCamino[11,13]
+                                   0                          -0 
+   661 noMandarPorDondeNoHayCamino[11,14]
+                                   0                          -0 
+   662 noMandarPorDondeNoHayCamino[11,15]
+                                   0                          -0 
+   663 noMandarPorDondeNoHayCamino[12,1]
+                                   0                          -0 
+   664 noMandarPorDondeNoHayCamino[12,2]
+                                   0                          -0 
+   665 noMandarPorDondeNoHayCamino[12,3]
+                                   0                          -0 
+   666 noMandarPorDondeNoHayCamino[12,4]
+                             -990299                          -0 
+   667 noMandarPorDondeNoHayCamino[12,5]
+                                   0                          -0 
+   668 noMandarPorDondeNoHayCamino[12,6]
+                                   0                          -0 
+   669 noMandarPorDondeNoHayCamino[12,7]
+                                   0                          -0 
+   670 noMandarPorDondeNoHayCamino[12,8]
+                                   0                          -0 
+   671 noMandarPorDondeNoHayCamino[12,9]
+                                   0                          -0 
+   672 noMandarPorDondeNoHayCamino[12,10]
+                                   0                          -0 
+   673 noMandarPorDondeNoHayCamino[12,11]
+                                   0                          -0 
+   674 noMandarPorDondeNoHayCamino[12,12]
+                             -993199                          -0 
+   675 noMandarPorDondeNoHayCamino[12,13]
+                                   0                          -0 
+   676 noMandarPorDondeNoHayCamino[12,14]
+                                   0                          -0 
+   677 noMandarPorDondeNoHayCamino[12,15]
+                                   0                          -0 
+   678 noMandarPorDondeNoHayCamino[13,1]
+                                   0                          -0 
+   679 noMandarPorDondeNoHayCamino[13,2]
+                                   0                          -0 
+   680 noMandarPorDondeNoHayCamino[13,3]
+                                   0                          -0 
+   681 noMandarPorDondeNoHayCamino[13,4]
+                                   0                          -0 
+   682 noMandarPorDondeNoHayCamino[13,5]
+                                   0                          -0 
+   683 noMandarPorDondeNoHayCamino[13,6]
+                                   0                          -0 
+   684 noMandarPorDondeNoHayCamino[13,7]
+                                   0                          -0 
+   685 noMandarPorDondeNoHayCamino[13,8]
+                                   0                          -0 
+   686 noMandarPorDondeNoHayCamino[13,9]
+                                   0                          -0 
+   687 noMandarPorDondeNoHayCamino[13,10]
+                                   0                          -0 
+   688 noMandarPorDondeNoHayCamino[13,11]
+                                   0                          -0 
+   689 noMandarPorDondeNoHayCamino[13,12]
+                                   0                          -0 
+   690 noMandarPorDondeNoHayCamino[13,13]
+                                   0                          -0 
+   691 noMandarPorDondeNoHayCamino[13,14]
+                                   0                          -0 
+   692 noMandarPorDondeNoHayCamino[13,15]
+                                   0                          -0 
+   693 noMandarPorDondeNoHayCamino[14,1]
+                                   0                          -0 
+   694 noMandarPorDondeNoHayCamino[14,2]
+                                   0                          -0 
+   695 noMandarPorDondeNoHayCamino[14,3]
+                                   0                          -0 
+   696 noMandarPorDondeNoHayCamino[14,4]
+                                   0                          -0 
+   697 noMandarPorDondeNoHayCamino[14,5]
+                                   0                          -0 
+   698 noMandarPorDondeNoHayCamino[14,6]
+                                   0                          -0 
+   699 noMandarPorDondeNoHayCamino[14,7]
+                                   0                          -0 
+   700 noMandarPorDondeNoHayCamino[14,8]
+                                   0                          -0 
+   701 noMandarPorDondeNoHayCamino[14,9]
+                                   0                          -0 
+   702 noMandarPorDondeNoHayCamino[14,10]
+                                   0                          -0 
+   703 noMandarPorDondeNoHayCamino[14,11]
+                                   0                          -0 
+   704 noMandarPorDondeNoHayCamino[14,12]
+                                   0                          -0 
+   705 noMandarPorDondeNoHayCamino[14,13]
+                                   0                          -0 
+   706 noMandarPorDondeNoHayCamino[14,14]
+                                   0                          -0 
+   707 noMandarPorDondeNoHayCamino[14,15]
+                                   0                          -0 
+   708 noMandarPorDondeNoHayCamino[15,1]
+                                   0                          -0 
+   709 noMandarPorDondeNoHayCamino[15,2]
+                                   0                          -0 
+   710 noMandarPorDondeNoHayCamino[15,3]
+                                   0                          -0 
+   711 noMandarPorDondeNoHayCamino[15,4]
+                                   0                          -0 
+   712 noMandarPorDondeNoHayCamino[15,5]
+                                   0                          -0 
+   713 noMandarPorDondeNoHayCamino[15,6]
+                                   0                          -0 
+   714 noMandarPorDondeNoHayCamino[15,7]
+                                   0                          -0 
+   715 noMandarPorDondeNoHayCamino[15,8]
+                                   0                          -0 
+   716 noMandarPorDondeNoHayCamino[15,9]
+                                   0                          -0 
+   717 noMandarPorDondeNoHayCamino[15,10]
+                                   0                          -0 
+   718 noMandarPorDondeNoHayCamino[15,11]
+                                   0                          -0 
+   719 noMandarPorDondeNoHayCamino[15,12]
+                                   0                          -0 
+   720 noMandarPorDondeNoHayCamino[15,13]
+                                   0                          -0 
+   721 noMandarPorDondeNoHayCamino[15,14]
+                                   0                          -0 
+   722 noMandarPorDondeNoHayCamino[15,15]
+                                   0                          -0 
+   723 noConstruirCamino[1,1]
+                               -2989                          -0 
+   724 noConstruirCamino[1,2]
+                                   0                          -0 
+   725 noConstruirCamino[1,3]
+                               -2909                          -0 
+   726 noConstruirCamino[1,4]
+                                   0                          -0 
+   727 noConstruirCamino[1,5]
+                                   0                          -0 
+   728 noConstruirCamino[1,6]
+                                   0                          -0 
+   729 noConstruirCamino[1,7]
+                                   0                          -0 
+   730 noConstruirCamino[1,8]
+                                   0                          -0 
+   731 noConstruirCamino[1,9]
+                               -3069                          -0 
+   732 noConstruirCamino[1,10]
+                               -6129                          -0 
+   733 noConstruirCamino[1,11]
+                                   0                          -0 
+   734 noConstruirCamino[1,12]
+                                   0                          -0 
+   735 noConstruirCamino[1,13]
+                                   0                          -0 
+   736 noConstruirCamino[1,14]
+                                   0                          -0 
+   737 noConstruirCamino[1,15]
+                                   0                          -0 
+   738 noConstruirCamino[2,1]
+                                   0                          -0 
+   739 noConstruirCamino[2,2]
+                               -7829                          -0 
+   740 noConstruirCamino[2,3]
+                                   0                          -0 
+   741 noConstruirCamino[2,4]
+                                   0                          -0 
+   742 noConstruirCamino[2,5]
+                                   0                          -0 
+   743 noConstruirCamino[2,6]
+                                   0                          -0 
+   744 noConstruirCamino[2,7]
+                               -6649                          -0 
+   745 noConstruirCamino[2,8]
+                                   0                          -0 
+   746 noConstruirCamino[2,9]
+                                   0                          -0 
+   747 noConstruirCamino[2,10]
+                                   0                          -0 
+   748 noConstruirCamino[2,11]
+                                   0                          -0 
+   749 noConstruirCamino[2,12]
+                                   0                          -0 
+   750 noConstruirCamino[2,13]
+                               -2069                          -0 
+   751 noConstruirCamino[2,14]
+                                   0                          -0 
+   752 noConstruirCamino[2,15]
+                                   0                          -0 
+   753 noConstruirCamino[3,1]
+                                   0                          -0 
+   754 noConstruirCamino[3,2]
+                                   0                          -0 
+   755 noConstruirCamino[3,3]
+                                   0                          -0 
+   756 noConstruirCamino[3,4]
+                                   0                          -0 
+   757 noConstruirCamino[3,5]
+                                   0                          -0 
+   758 noConstruirCamino[3,6]
+                                   0                          -0 
+   759 noConstruirCamino[3,7]
+                                   0                          -0 
+   760 noConstruirCamino[3,8]
+                                   0                          -0 
+   761 noConstruirCamino[3,9]
+                                   0                          -0 
+   762 noConstruirCamino[3,10]
+                                   0                          -0 
+   763 noConstruirCamino[3,11]
+                                   0                          -0 
+   764 noConstruirCamino[3,12]
+                                   0                          -0 
+   765 noConstruirCamino[3,13]
+                                   0                          -0 
+   766 noConstruirCamino[3,14]
+                                   0                          -0 
+   767 noConstruirCamino[3,15]
+                                   0                          -0 
+   768 noConstruirCamino[4,1]
+                                   0                          -0 
+   769 noConstruirCamino[4,2]
+                                   0                          -0 
+   770 noConstruirCamino[4,3]
+                                   0                          -0 
+   771 noConstruirCamino[4,4]
+                                   0                          -0 
+   772 noConstruirCamino[4,5]
+                                   0                          -0 
+   773 noConstruirCamino[4,6]
+                                   0                          -0 
+   774 noConstruirCamino[4,7]
+                                   0                          -0 
+   775 noConstruirCamino[4,8]
+                                   0                          -0 
+   776 noConstruirCamino[4,9]
+                                   0                          -0 
+   777 noConstruirCamino[4,10]
+                                   0                          -0 
+   778 noConstruirCamino[4,11]
+                                   0                          -0 
+   779 noConstruirCamino[4,12]
+                                   0                          -0 
+   780 noConstruirCamino[4,13]
+                                   0                          -0 
+   781 noConstruirCamino[4,14]
+                                   0                          -0 
+   782 noConstruirCamino[4,15]
+                                   0                          -0 
+   783 noConstruirCamino[5,1]
+                                   0                          -0 
+   784 noConstruirCamino[5,2]
+                                   0                          -0 
+   785 noConstruirCamino[5,3]
+                                   0                          -0 
+   786 noConstruirCamino[5,4]
+                                   0                          -0 
+   787 noConstruirCamino[5,5]
+                               -3809                          -0 
+   788 noConstruirCamino[5,6]
+                                   0                          -0 
+   789 noConstruirCamino[5,7]
+                                   0                          -0 
+   790 noConstruirCamino[5,8]
+                               -3069                          -0 
+   791 noConstruirCamino[5,9]
+                                   0                          -0 
+   792 noConstruirCamino[5,10]
+                                   0                          -0 
+   793 noConstruirCamino[5,11]
+                               -1009                          -0 
+   794 noConstruirCamino[5,12]
+                                   0                          -0 
+   795 noConstruirCamino[5,13]
+                                   0                          -0 
+   796 noConstruirCamino[5,14]
+                                   0                          -0 
+   797 noConstruirCamino[5,15]
+                               -1019                          -0 
+   798 noConstruirCamino[6,1]
+                                   0                          -0 
+   799 noConstruirCamino[6,2]
+                                   0                          -0 
+   800 noConstruirCamino[6,3]
+                                   0                          -0 
+   801 noConstruirCamino[6,4]
+                                   0                          -0 
+   802 noConstruirCamino[6,5]
+                                   0                          -0 
+   803 noConstruirCamino[6,6]
+                               -5579                          -0 
+   804 noConstruirCamino[6,7]
+                                   0                          -0 
+   805 noConstruirCamino[6,8]
+                                   0                          -0 
+   806 noConstruirCamino[6,9]
+                                   0                          -0 
+   807 noConstruirCamino[6,10]
+                                   0                          -0 
+   808 noConstruirCamino[6,11]
+                                   0                          -0 
+   809 noConstruirCamino[6,12]
+                                   0                          -0 
+   810 noConstruirCamino[6,13]
+                                   0                          -0 
+   811 noConstruirCamino[6,14]
+                               -6059                          -0 
+   812 noConstruirCamino[6,15]
+                                   0                          -0 
+   813 noConstruirCamino[7,1]
+                                   0                          -0 
+   814 noConstruirCamino[7,2]
+                                   0                          -0 
+   815 noConstruirCamino[7,3]
+                                   0                          -0 
+   816 noConstruirCamino[7,4]
+                                   0                          -0 
+   817 noConstruirCamino[7,5]
+                                   0                          -0 
+   818 noConstruirCamino[7,6]
+                                   0                          -0 
+   819 noConstruirCamino[7,7]
+                                   0                          -0 
+   820 noConstruirCamino[7,8]
+                                   0                          -0 
+   821 noConstruirCamino[7,9]
+                                   0                          -0 
+   822 noConstruirCamino[7,10]
+                                   0                          -0 
+   823 noConstruirCamino[7,11]
+                                   0                          -0 
+   824 noConstruirCamino[7,12]
+                                   0                          -0 
+   825 noConstruirCamino[7,13]
+                                   0                          -0 
+   826 noConstruirCamino[7,14]
+                                   0                          -0 
+   827 noConstruirCamino[7,15]
+                                   0                          -0 
+   828 noConstruirCamino[8,1]
+                                   0                          -0 
+   829 noConstruirCamino[8,2]
+                                   0                          -0 
+   830 noConstruirCamino[8,3]
+                                   0                          -0 
+   831 noConstruirCamino[8,4]
+                                   0                          -0 
+   832 noConstruirCamino[8,5]
+                                   0                          -0 
+   833 noConstruirCamino[8,6]
+                                   0                          -0 
+   834 noConstruirCamino[8,7]
+                                   0                          -0 
+   835 noConstruirCamino[8,8]
+                                   0                          -0 
+   836 noConstruirCamino[8,9]
+                                   0                          -0 
+   837 noConstruirCamino[8,10]
+                                   0                          -0 
+   838 noConstruirCamino[8,11]
+                                   0                          -0 
+   839 noConstruirCamino[8,12]
+                                   0                          -0 
+   840 noConstruirCamino[8,13]
+                                   0                          -0 
+   841 noConstruirCamino[8,14]
+                                   0                          -0 
+   842 noConstruirCamino[8,15]
+                                   0                          -0 
+   843 noConstruirCamino[9,1]
+                                   0                          -0 
+   844 noConstruirCamino[9,2]
+                                   0                          -0 
+   845 noConstruirCamino[9,3]
+                                   0                          -0 
+   846 noConstruirCamino[9,4]
+                                   0                          -0 
+   847 noConstruirCamino[9,5]
+                                   0                          -0 
+   848 noConstruirCamino[9,6]
+                                   0                          -0 
+   849 noConstruirCamino[9,7]
+                                   0                          -0 
+   850 noConstruirCamino[9,8]
+                                   0                          -0 
+   851 noConstruirCamino[9,9]
+                                   0                          -0 
+   852 noConstruirCamino[9,10]
+                                   0                          -0 
+   853 noConstruirCamino[9,11]
+                                   0                          -0 
+   854 noConstruirCamino[9,12]
+                                   0                          -0 
+   855 noConstruirCamino[9,13]
+                                   0                          -0 
+   856 noConstruirCamino[9,14]
+                                   0                          -0 
+   857 noConstruirCamino[9,15]
+                                   0                          -0 
+   858 noConstruirCamino[10,1]
+                                   0                          -0 
+   859 noConstruirCamino[10,2]
+                                   0                          -0 
+   860 noConstruirCamino[10,3]
+                                   0                          -0 
+   861 noConstruirCamino[10,4]
+                                   0                          -0 
+   862 noConstruirCamino[10,5]
+                                   0                          -0 
+   863 noConstruirCamino[10,6]
+                                   0                          -0 
+   864 noConstruirCamino[10,7]
+                                   0                          -0 
+   865 noConstruirCamino[10,8]
+                                   0                          -0 
+   866 noConstruirCamino[10,9]
+                                   0                          -0 
+   867 noConstruirCamino[10,10]
+                                   0                          -0 
+   868 noConstruirCamino[10,11]
+                                   0                          -0 
+   869 noConstruirCamino[10,12]
+                                   0                          -0 
+   870 noConstruirCamino[10,13]
+                                   0                          -0 
+   871 noConstruirCamino[10,14]
+                                   0                          -0 
+   872 noConstruirCamino[10,15]
+                                   0                          -0 
+   873 noConstruirCamino[11,1]
+                                   0                          -0 
+   874 noConstruirCamino[11,2]
+                                   0                          -0 
+   875 noConstruirCamino[11,3]
+                                   0                          -0 
+   876 noConstruirCamino[11,4]
+                                   0                          -0 
+   877 noConstruirCamino[11,5]
+                                   0                          -0 
+   878 noConstruirCamino[11,6]
+                                   0                          -0 
+   879 noConstruirCamino[11,7]
+                                   0                          -0 
+   880 noConstruirCamino[11,8]
+                                   0                          -0 
+   881 noConstruirCamino[11,9]
+                                   0                          -0 
+   882 noConstruirCamino[11,10]
+                                   0                          -0 
+   883 noConstruirCamino[11,11]
+                                   0                          -0 
+   884 noConstruirCamino[11,12]
+                                   0                          -0 
+   885 noConstruirCamino[11,13]
+                                   0                          -0 
+   886 noConstruirCamino[11,14]
+                                   0                          -0 
+   887 noConstruirCamino[11,15]
+                                   0                          -0 
+   888 noConstruirCamino[12,1]
+                                   0                          -0 
+   889 noConstruirCamino[12,2]
+                                   0                          -0 
+   890 noConstruirCamino[12,3]
+                                   0                          -0 
+   891 noConstruirCamino[12,4]
+                               -9699                          -0 
+   892 noConstruirCamino[12,5]
+                                   0                          -0 
+   893 noConstruirCamino[12,6]
+                                   0                          -0 
+   894 noConstruirCamino[12,7]
+                                   0                          -0 
+   895 noConstruirCamino[12,8]
+                                   0                          -0 
+   896 noConstruirCamino[12,9]
+                                   0                          -0 
+   897 noConstruirCamino[12,10]
+                                   0                          -0 
+   898 noConstruirCamino[12,11]
+                                   0                          -0 
+   899 noConstruirCamino[12,12]
+                               -6799                          -0 
+   900 noConstruirCamino[12,13]
+                                   0                          -0 
+   901 noConstruirCamino[12,14]
+                                   0                          -0 
+   902 noConstruirCamino[12,15]
+                                   0                          -0 
+   903 noConstruirCamino[13,1]
+                                   0                          -0 
+   904 noConstruirCamino[13,2]
+                                   0                          -0 
+   905 noConstruirCamino[13,3]
+                                   0                          -0 
+   906 noConstruirCamino[13,4]
+                                   0                          -0 
+   907 noConstruirCamino[13,5]
+                                   0                          -0 
+   908 noConstruirCamino[13,6]
+                                   0                          -0 
+   909 noConstruirCamino[13,7]
+                                   0                          -0 
+   910 noConstruirCamino[13,8]
+                                   0                          -0 
+   911 noConstruirCamino[13,9]
+                                   0                          -0 
+   912 noConstruirCamino[13,10]
+                                   0                          -0 
+   913 noConstruirCamino[13,11]
+                                   0                          -0 
+   914 noConstruirCamino[13,12]
+                                   0                          -0 
+   915 noConstruirCamino[13,13]
+                                   0                          -0 
+   916 noConstruirCamino[13,14]
+                                   0                          -0 
+   917 noConstruirCamino[13,15]
+                                   0                          -0 
+   918 noConstruirCamino[14,1]
+                                   0                          -0 
+   919 noConstruirCamino[14,2]
+                                   0                          -0 
+   920 noConstruirCamino[14,3]
+                                   0                          -0 
+   921 noConstruirCamino[14,4]
+                                   0                          -0 
+   922 noConstruirCamino[14,5]
+                                   0                          -0 
+   923 noConstruirCamino[14,6]
+                                   0                          -0 
+   924 noConstruirCamino[14,7]
+                                   0                          -0 
+   925 noConstruirCamino[14,8]
+                                   0                          -0 
+   926 noConstruirCamino[14,9]
+                                   0                          -0 
+   927 noConstruirCamino[14,10]
+                                   0                          -0 
+   928 noConstruirCamino[14,11]
+                                   0                          -0 
+   929 noConstruirCamino[14,12]
+                                   0                          -0 
+   930 noConstruirCamino[14,13]
+                                   0                          -0 
+   931 noConstruirCamino[14,14]
+                                   0                          -0 
+   932 noConstruirCamino[14,15]
+                                   0                          -0 
+   933 noConstruirCamino[15,1]
+                                   0                          -0 
+   934 noConstruirCamino[15,2]
+                                   0                          -0 
+   935 noConstruirCamino[15,3]
+                                   0                          -0 
+   936 noConstruirCamino[15,4]
+                                   0                          -0 
+   937 noConstruirCamino[15,5]
+                                   0                          -0 
+   938 noConstruirCamino[15,6]
+                                   0                          -0 
+   939 noConstruirCamino[15,7]
+                                   0                          -0 
+   940 noConstruirCamino[15,8]
+                                   0                          -0 
+   941 noConstruirCamino[15,9]
+                                   0                          -0 
+   942 noConstruirCamino[15,10]
+                                   0                          -0 
+   943 noConstruirCamino[15,11]
+                                   0                          -0 
+   944 noConstruirCamino[15,12]
+                                   0                          -0 
+   945 noConstruirCamino[15,13]
+                                   0                          -0 
+   946 noConstruirCamino[15,14]
+                                   0                          -0 
+   947 noConstruirCamino[15,15]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1]         *              1             0             1 
+     2 X[2]         *              1             0             1 
+     3 X[3]         *              0             0             1 
+     4 X[4]         *              0             0             1 
+     5 X[5]         *              1             0             1 
+     6 X[6]         *              1             0             1 
+     7 X[7]         *              0             0             1 
+     8 X[8]         *              0             0             1 
+     9 X[9]         *              0             0             1 
+    10 X[10]        *              0             0             1 
+    11 X[11]        *              0             0             1 
+    12 X[12]        *              1             0             1 
+    13 X[13]        *              0             0             1 
+    14 X[14]        *              0             0             1 
+    15 X[15]        *              0             0             1 
+    16 Y[1,1]       *              1             0             1 
+    17 Y[1,2]       *              0             0             1 
+    18 Y[1,3]       *              1             0             1 
+    19 Y[1,4]       *              0             0             1 
+    20 Y[1,5]       *              0             0             1 
+    21 Y[1,6]       *              0             0             1 
+    22 Y[1,7]       *              0             0             1 
+    23 Y[1,8]       *              0             0             1 
+    24 Y[1,9]       *              1             0             1 
+    25 Y[1,10]      *              1             0             1 
+    26 Y[1,11]      *              0             0             1 
+    27 Y[1,12]      *              0             0             1 
+    28 Y[1,13]      *              0             0             1 
+    29 Y[1,14]      *              0             0             1 
+    30 Y[1,15]      *              0             0             1 
+    31 Y[2,1]       *              0             0             1 
+    32 Y[2,2]       *              1             0             1 
+    33 Y[2,3]       *              0             0             1 
+    34 Y[2,4]       *              0             0             1 
+    35 Y[2,5]       *              0             0             1 
+    36 Y[2,6]       *              0             0             1 
+    37 Y[2,7]       *              1             0             1 
+    38 Y[2,8]       *              0             0             1 
+    39 Y[2,9]       *              0             0             1 
+    40 Y[2,10]      *              0             0             1 
+    41 Y[2,11]      *              0             0             1 
+    42 Y[2,12]      *              0             0             1 
+    43 Y[2,13]      *              1             0             1 
+    44 Y[2,14]      *              0             0             1 
+    45 Y[2,15]      *              0             0             1 
+    46 Y[3,1]       *              0             0             1 
+    47 Y[3,2]       *              0             0             1 
+    48 Y[3,3]       *              0             0             1 
+    49 Y[3,4]       *              0             0             1 
+    50 Y[3,5]       *              0             0             1 
+    51 Y[3,6]       *              0             0             1 
+    52 Y[3,7]       *              0             0             1 
+    53 Y[3,8]       *              0             0             1 
+    54 Y[3,9]       *              0             0             1 
+    55 Y[3,10]      *              0             0             1 
+    56 Y[3,11]      *              0             0             1 
+    57 Y[3,12]      *              0             0             1 
+    58 Y[3,13]      *              0             0             1 
+    59 Y[3,14]      *              0             0             1 
+    60 Y[3,15]      *              0             0             1 
+    61 Y[4,1]       *              0             0             1 
+    62 Y[4,2]       *              0             0             1 
+    63 Y[4,3]       *              0             0             1 
+    64 Y[4,4]       *              0             0             1 
+    65 Y[4,5]       *              0             0             1 
+    66 Y[4,6]       *              0             0             1 
+    67 Y[4,7]       *              0             0             1 
+    68 Y[4,8]       *              0             0             1 
+    69 Y[4,9]       *              0             0             1 
+    70 Y[4,10]      *              0             0             1 
+    71 Y[4,11]      *              0             0             1 
+    72 Y[4,12]      *              0             0             1 
+    73 Y[4,13]      *              0             0             1 
+    74 Y[4,14]      *              0             0             1 
+    75 Y[4,15]      *              0             0             1 
+    76 Y[5,1]       *              0             0             1 
+    77 Y[5,2]       *              0             0             1 
+    78 Y[5,3]       *              0             0             1 
+    79 Y[5,4]       *              0             0             1 
+    80 Y[5,5]       *              1             0             1 
+    81 Y[5,6]       *              0             0             1 
+    82 Y[5,7]       *              0             0             1 
+    83 Y[5,8]       *              1             0             1 
+    84 Y[5,9]       *              0             0             1 
+    85 Y[5,10]      *              0             0             1 
+    86 Y[5,11]      *              1             0             1 
+    87 Y[5,12]      *              0             0             1 
+    88 Y[5,13]      *              0             0             1 
+    89 Y[5,14]      *              0             0             1 
+    90 Y[5,15]      *              1             0             1 
+    91 Y[6,1]       *              0             0             1 
+    92 Y[6,2]       *              0             0             1 
+    93 Y[6,3]       *              0             0             1 
+    94 Y[6,4]       *              0             0             1 
+    95 Y[6,5]       *              0             0             1 
+    96 Y[6,6]       *              1             0             1 
+    97 Y[6,7]       *              0             0             1 
+    98 Y[6,8]       *              0             0             1 
+    99 Y[6,9]       *              0             0             1 
+   100 Y[6,10]      *              0             0             1 
+   101 Y[6,11]      *              0             0             1 
+   102 Y[6,12]      *              0             0             1 
+   103 Y[6,13]      *              0             0             1 
+   104 Y[6,14]      *              1             0             1 
+   105 Y[6,15]      *              0             0             1 
+   106 Y[7,1]       *              0             0             1 
+   107 Y[7,2]       *              0             0             1 
+   108 Y[7,3]       *              0             0             1 
+   109 Y[7,4]       *              0             0             1 
+   110 Y[7,5]       *              0             0             1 
+   111 Y[7,6]       *              0             0             1 
+   112 Y[7,7]       *              0             0             1 
+   113 Y[7,8]       *              0             0             1 
+   114 Y[7,9]       *              0             0             1 
+   115 Y[7,10]      *              0             0             1 
+   116 Y[7,11]      *              0             0             1 
+   117 Y[7,12]      *              0             0             1 
+   118 Y[7,13]      *              0             0             1 
+   119 Y[7,14]      *              0             0             1 
+   120 Y[7,15]      *              0             0             1 
+   121 Y[8,1]       *              0             0             1 
+   122 Y[8,2]       *              0             0             1 
+   123 Y[8,3]       *              0             0             1 
+   124 Y[8,4]       *              0             0             1 
+   125 Y[8,5]       *              0             0             1 
+   126 Y[8,6]       *              0             0             1 
+   127 Y[8,7]       *              0             0             1 
+   128 Y[8,8]       *              0             0             1 
+   129 Y[8,9]       *              0             0             1 
+   130 Y[8,10]      *              0             0             1 
+   131 Y[8,11]      *              0             0             1 
+   132 Y[8,12]      *              0             0             1 
+   133 Y[8,13]      *              0             0             1 
+   134 Y[8,14]      *              0             0             1 
+   135 Y[8,15]      *              0             0             1 
+   136 Y[9,1]       *              0             0             1 
+   137 Y[9,2]       *              0             0             1 
+   138 Y[9,3]       *              0             0             1 
+   139 Y[9,4]       *              0             0             1 
+   140 Y[9,5]       *              0             0             1 
+   141 Y[9,6]       *              0             0             1 
+   142 Y[9,7]       *              0             0             1 
+   143 Y[9,8]       *              0             0             1 
+   144 Y[9,9]       *              0             0             1 
+   145 Y[9,10]      *              0             0             1 
+   146 Y[9,11]      *              0             0             1 
+   147 Y[9,12]      *              0             0             1 
+   148 Y[9,13]      *              0             0             1 
+   149 Y[9,14]      *              0             0             1 
+   150 Y[9,15]      *              0             0             1 
+   151 Y[10,1]      *              0             0             1 
+   152 Y[10,2]      *              0             0             1 
+   153 Y[10,3]      *              0             0             1 
+   154 Y[10,4]      *              0             0             1 
+   155 Y[10,5]      *              0             0             1 
+   156 Y[10,6]      *              0             0             1 
+   157 Y[10,7]      *              0             0             1 
+   158 Y[10,8]      *              0             0             1 
+   159 Y[10,9]      *              0             0             1 
+   160 Y[10,10]     *              0             0             1 
+   161 Y[10,11]     *              0             0             1 
+   162 Y[10,12]     *              0             0             1 
+   163 Y[10,13]     *              0             0             1 
+   164 Y[10,14]     *              0             0             1 
+   165 Y[10,15]     *              0             0             1 
+   166 Y[11,1]      *              0             0             1 
+   167 Y[11,2]      *              0             0             1 
+   168 Y[11,3]      *              0             0             1 
+   169 Y[11,4]      *              0             0             1 
+   170 Y[11,5]      *              0             0             1 
+   171 Y[11,6]      *              0             0             1 
+   172 Y[11,7]      *              0             0             1 
+   173 Y[11,8]      *              0             0             1 
+   174 Y[11,9]      *              0             0             1 
+   175 Y[11,10]     *              0             0             1 
+   176 Y[11,11]     *              0             0             1 
+   177 Y[11,12]     *              0             0             1 
+   178 Y[11,13]     *              0             0             1 
+   179 Y[11,14]     *              0             0             1 
+   180 Y[11,15]     *              0             0             1 
+   181 Y[12,1]      *              0             0             1 
+   182 Y[12,2]      *              0             0             1 
+   183 Y[12,3]      *              0             0             1 
+   184 Y[12,4]      *              1             0             1 
+   185 Y[12,5]      *              0             0             1 
+   186 Y[12,6]      *              0             0             1 
+   187 Y[12,7]      *              0             0             1 
+   188 Y[12,8]      *              0             0             1 
+   189 Y[12,9]      *              0             0             1 
+   190 Y[12,10]     *              0             0             1 
+   191 Y[12,11]     *              0             0             1 
+   192 Y[12,12]     *              1             0             1 
+   193 Y[12,13]     *              0             0             1 
+   194 Y[12,14]     *              0             0             1 
+   195 Y[12,15]     *              0             0             1 
+   196 Y[13,1]      *              0             0             1 
+   197 Y[13,2]      *              0             0             1 
+   198 Y[13,3]      *              0             0             1 
+   199 Y[13,4]      *              0             0             1 
+   200 Y[13,5]      *              0             0             1 
+   201 Y[13,6]      *              0             0             1 
+   202 Y[13,7]      *              0             0             1 
+   203 Y[13,8]      *              0             0             1 
+   204 Y[13,9]      *              0             0             1 
+   205 Y[13,10]     *              0             0             1 
+   206 Y[13,11]     *              0             0             1 
+   207 Y[13,12]     *              0             0             1 
+   208 Y[13,13]     *              0             0             1 
+   209 Y[13,14]     *              0             0             1 
+   210 Y[13,15]     *              0             0             1 
+   211 Y[14,1]      *              0             0             1 
+   212 Y[14,2]      *              0             0             1 
+   213 Y[14,3]      *              0             0             1 
+   214 Y[14,4]      *              0             0             1 
+   215 Y[14,5]      *              0             0             1 
+   216 Y[14,6]      *              0             0             1 
+   217 Y[14,7]      *              0             0             1 
+   218 Y[14,8]      *              0             0             1 
+   219 Y[14,9]      *              0             0             1 
+   220 Y[14,10]     *              0             0             1 
+   221 Y[14,11]     *              0             0             1 
+   222 Y[14,12]     *              0             0             1 
+   223 Y[14,13]     *              0             0             1 
+   224 Y[14,14]     *              0             0             1 
+   225 Y[14,15]     *              0             0             1 
+   226 Y[15,1]      *              0             0             1 
+   227 Y[15,2]      *              0             0             1 
+   228 Y[15,3]      *              0             0             1 
+   229 Y[15,4]      *              0             0             1 
+   230 Y[15,5]      *              0             0             1 
+   231 Y[15,6]      *              0             0             1 
+   232 Y[15,7]      *              0             0             1 
+   233 Y[15,8]      *              0             0             1 
+   234 Y[15,9]      *              0             0             1 
+   235 Y[15,10]     *              0             0             1 
+   236 Y[15,11]     *              0             0             1 
+   237 Y[15,12]     *              0             0             1 
+   238 Y[15,13]     *              0             0             1 
+   239 Y[15,14]     *              0             0             1 
+   240 Y[15,15]     *              0             0             1 
+   241 W[1,1]       *           2990             0               
+   242 W[1,2]       *              0             0               
+   243 W[1,3]       *           2910             0               
+   244 W[1,4]       *              0             0               
+   245 W[1,5]       *              0             0               
+   246 W[1,6]       *              0             0               
+   247 W[1,7]       *              0             0               
+   248 W[1,8]       *              0             0               
+   249 W[1,9]       *           3070             0               
+   250 W[1,10]      *           6130             0               
+   251 W[1,11]      *              0             0               
+   252 W[1,12]      *              0             0               
+   253 W[1,13]      *              0             0               
+   254 W[1,14]      *              0             0               
+   255 W[1,15]      *              0             0               
+   256 W[2,1]       *              0             0               
+   257 W[2,2]       *           7830             0               
+   258 W[2,3]       *              0             0               
+   259 W[2,4]       *              0             0               
+   260 W[2,5]       *              0             0               
+   261 W[2,6]       *              0             0               
+   262 W[2,7]       *           6650             0               
+   263 W[2,8]       *              0             0               
+   264 W[2,9]       *              0             0               
+   265 W[2,10]      *              0             0               
+   266 W[2,11]      *              0             0               
+   267 W[2,12]      *              0             0               
+   268 W[2,13]      *           2070             0               
+   269 W[2,14]      *              0             0               
+   270 W[2,15]      *              0             0               
+   271 W[3,1]       *              0             0               
+   272 W[3,2]       *              0             0               
+   273 W[3,3]       *              0             0               
+   274 W[3,4]       *              0             0               
+   275 W[3,5]       *              0             0               
+   276 W[3,6]       *              0             0               
+   277 W[3,7]       *              0             0               
+   278 W[3,8]       *              0             0               
+   279 W[3,9]       *              0             0               
+   280 W[3,10]      *              0             0               
+   281 W[3,11]      *              0             0               
+   282 W[3,12]      *              0             0               
+   283 W[3,13]      *              0             0               
+   284 W[3,14]      *              0             0               
+   285 W[3,15]      *              0             0               
+   286 W[4,1]       *              0             0               
+   287 W[4,2]       *              0             0               
+   288 W[4,3]       *              0             0               
+   289 W[4,4]       *              0             0               
+   290 W[4,5]       *              0             0               
+   291 W[4,6]       *              0             0               
+   292 W[4,7]       *              0             0               
+   293 W[4,8]       *              0             0               
+   294 W[4,9]       *              0             0               
+   295 W[4,10]      *              0             0               
+   296 W[4,11]      *              0             0               
+   297 W[4,12]      *              0             0               
+   298 W[4,13]      *              0             0               
+   299 W[4,14]      *              0             0               
+   300 W[4,15]      *              0             0               
+   301 W[5,1]       *              0             0               
+   302 W[5,2]       *              0             0               
+   303 W[5,3]       *              0             0               
+   304 W[5,4]       *              0             0               
+   305 W[5,5]       *           3810             0               
+   306 W[5,6]       *              0             0               
+   307 W[5,7]       *              0             0               
+   308 W[5,8]       *           3070             0               
+   309 W[5,9]       *              0             0               
+   310 W[5,10]      *              0             0               
+   311 W[5,11]      *           1010             0               
+   312 W[5,12]      *              0             0               
+   313 W[5,13]      *              0             0               
+   314 W[5,14]      *              0             0               
+   315 W[5,15]      *           1020             0               
+   316 W[6,1]       *              0             0               
+   317 W[6,2]       *              0             0               
+   318 W[6,3]       *              0             0               
+   319 W[6,4]       *              0             0               
+   320 W[6,5]       *              0             0               
+   321 W[6,6]       *           5580             0               
+   322 W[6,7]       *              0             0               
+   323 W[6,8]       *              0             0               
+   324 W[6,9]       *              0             0               
+   325 W[6,10]      *              0             0               
+   326 W[6,11]      *              0             0               
+   327 W[6,12]      *              0             0               
+   328 W[6,13]      *              0             0               
+   329 W[6,14]      *           6060             0               
+   330 W[6,15]      *              0             0               
+   331 W[7,1]       *              0             0               
+   332 W[7,2]       *              0             0               
+   333 W[7,3]       *              0             0               
+   334 W[7,4]       *              0             0               
+   335 W[7,5]       *              0             0               
+   336 W[7,6]       *              0             0               
+   337 W[7,7]       *              0             0               
+   338 W[7,8]       *              0             0               
+   339 W[7,9]       *              0             0               
+   340 W[7,10]      *              0             0               
+   341 W[7,11]      *              0             0               
+   342 W[7,12]      *              0             0               
+   343 W[7,13]      *              0             0               
+   344 W[7,14]      *              0             0               
+   345 W[7,15]      *              0             0               
+   346 W[8,1]       *              0             0               
+   347 W[8,2]       *              0             0               
+   348 W[8,3]       *              0             0               
+   349 W[8,4]       *              0             0               
+   350 W[8,5]       *              0             0               
+   351 W[8,6]       *              0             0               
+   352 W[8,7]       *              0             0               
+   353 W[8,8]       *              0             0               
+   354 W[8,9]       *              0             0               
+   355 W[8,10]      *              0             0               
+   356 W[8,11]      *              0             0               
+   357 W[8,12]      *              0             0               
+   358 W[8,13]      *              0             0               
+   359 W[8,14]      *              0             0               
+   360 W[8,15]      *              0             0               
+   361 W[9,1]       *              0             0               
+   362 W[9,2]       *              0             0               
+   363 W[9,3]       *              0             0               
+   364 W[9,4]       *              0             0               
+   365 W[9,5]       *              0             0               
+   366 W[9,6]       *              0             0               
+   367 W[9,7]       *              0             0               
+   368 W[9,8]       *              0             0               
+   369 W[9,9]       *              0             0               
+   370 W[9,10]      *              0             0               
+   371 W[9,11]      *              0             0               
+   372 W[9,12]      *              0             0               
+   373 W[9,13]      *              0             0               
+   374 W[9,14]      *              0             0               
+   375 W[9,15]      *              0             0               
+   376 W[10,1]      *              0             0               
+   377 W[10,2]      *              0             0               
+   378 W[10,3]      *              0             0               
+   379 W[10,4]      *              0             0               
+   380 W[10,5]      *              0             0               
+   381 W[10,6]      *              0             0               
+   382 W[10,7]      *              0             0               
+   383 W[10,8]      *              0             0               
+   384 W[10,9]      *              0             0               
+   385 W[10,10]     *              0             0               
+   386 W[10,11]     *              0             0               
+   387 W[10,12]     *              0             0               
+   388 W[10,13]     *              0             0               
+   389 W[10,14]     *              0             0               
+   390 W[10,15]     *              0             0               
+   391 W[11,1]      *              0             0               
+   392 W[11,2]      *              0             0               
+   393 W[11,3]      *              0             0               
+   394 W[11,4]      *              0             0               
+   395 W[11,5]      *              0             0               
+   396 W[11,6]      *              0             0               
+   397 W[11,7]      *              0             0               
+   398 W[11,8]      *              0             0               
+   399 W[11,9]      *              0             0               
+   400 W[11,10]     *              0             0               
+   401 W[11,11]     *              0             0               
+   402 W[11,12]     *              0             0               
+   403 W[11,13]     *              0             0               
+   404 W[11,14]     *              0             0               
+   405 W[11,15]     *              0             0               
+   406 W[12,1]      *              0             0               
+   407 W[12,2]      *              0             0               
+   408 W[12,3]      *              0             0               
+   409 W[12,4]      *           9700             0               
+   410 W[12,5]      *              0             0               
+   411 W[12,6]      *              0             0               
+   412 W[12,7]      *              0             0               
+   413 W[12,8]      *              0             0               
+   414 W[12,9]      *              0             0               
+   415 W[12,10]     *              0             0               
+   416 W[12,11]     *              0             0               
+   417 W[12,12]     *           6800             0               
+   418 W[12,13]     *              0             0               
+   419 W[12,14]     *              0             0               
+   420 W[12,15]     *              0             0               
+   421 W[13,1]      *              0             0               
+   422 W[13,2]      *              0             0               
+   423 W[13,3]      *              0             0               
+   424 W[13,4]      *              0             0               
+   425 W[13,5]      *              0             0               
+   426 W[13,6]      *              0             0               
+   427 W[13,7]      *              0             0               
+   428 W[13,8]      *              0             0               
+   429 W[13,9]      *              0             0               
+   430 W[13,10]     *              0             0               
+   431 W[13,11]     *              0             0               
+   432 W[13,12]     *              0             0               
+   433 W[13,13]     *              0             0               
+   434 W[13,14]     *              0             0               
+   435 W[13,15]     *              0             0               
+   436 W[14,1]      *              0             0               
+   437 W[14,2]      *              0             0               
+   438 W[14,3]      *              0             0               
+   439 W[14,4]      *              0             0               
+   440 W[14,5]      *              0             0               
+   441 W[14,6]      *              0             0               
+   442 W[14,7]      *              0             0               
+   443 W[14,8]      *              0             0               
+   444 W[14,9]      *              0             0               
+   445 W[14,10]     *              0             0               
+   446 W[14,11]     *              0             0               
+   447 W[14,12]     *              0             0               
+   448 W[14,13]     *              0             0               
+   449 W[14,14]     *              0             0               
+   450 W[14,15]     *              0             0               
+   451 W[15,1]      *              0             0               
+   452 W[15,2]      *              0             0               
+   453 W[15,3]      *              0             0               
+   454 W[15,4]      *              0             0               
+   455 W[15,5]      *              0             0               
+   456 W[15,6]      *              0             0               
+   457 W[15,7]      *              0             0               
+   458 W[15,8]      *              0             0               
+   459 W[15,9]      *              0             0               
+   460 W[15,10]     *              0             0               
+   461 W[15,11]     *              0             0               
+   462 W[15,12]     *              0             0               
+   463 W[15,13]     *              0             0               
+   464 W[15,14]     *              0             0               
+   465 W[15,15]     *              0             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

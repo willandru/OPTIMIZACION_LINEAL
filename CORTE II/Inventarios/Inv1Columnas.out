@@ -1,0 +1,161 @@
+Problem:    Inv1Columnas
+Rows:       45
+Columns:    48 (48 integer, 0 binary)
+Non-zeros:  225
+Status:     INTEGER OPTIMAL
+Objective:  Z = 5210800 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Z                  5.2108e+06                             
+     2 capacidadProduccion[1,1]
+                                 -10                          -0 
+     3 capacidadProduccion[1,2]
+                                  -2                          -0 
+     4 capacidadProduccion[1,3]
+                                   0                          -0 
+     5 capacidadProduccion[1,4]
+                                  -6                          -0 
+     6 capacidadProduccion[2,1]
+                                 -10                          -0 
+     7 capacidadProduccion[2,2]
+                                 -18                          -0 
+     8 capacidadProduccion[2,3]
+                                 -22                          -0 
+     9 capacidadProduccion[2,4]
+                                 -15                          -0 
+    10 capacidadProduccion[3,1]
+                                 -16                          -0 
+    11 capacidadProduccion[3,2]
+                                  -5                          -0 
+    12 capacidadProduccion[3,3]
+                                  -2                          -0 
+    13 capacidadProduccion[3,4]
+                                  -8                          -0 
+    14 inventarioMinimoAlmacenado[1,1]
+                                   5             5               
+    15 inventarioMinimoAlmacenado[1,2]
+                                   6             5               
+    16 inventarioMinimoAlmacenado[1,3]
+                                   5             5               
+    17 inventarioMinimoAlmacenado[1,4]
+                                   5             5               
+    18 inventarioMinimoAlmacenado[2,1]
+                                  10            10               
+    19 inventarioMinimoAlmacenado[2,2]
+                                  10            10               
+    20 inventarioMinimoAlmacenado[2,3]
+                                  10            10               
+    21 inventarioMinimoAlmacenado[2,4]
+                                  10            10               
+    22 inventarioMinimoAlmacenado[3,1]
+                                   3             3               
+    23 inventarioMinimoAlmacenado[3,2]
+                                   5             3               
+    24 inventarioMinimoAlmacenado[3,3]
+                                   3             3               
+    25 inventarioMinimoAlmacenado[3,4]
+                                   3             3               
+    26 inventarioSemanaInicial[1]
+                                 -20           -20             = 
+    27 inventarioSemanaInicial[2]
+                                 -20           -20             = 
+    28 inventarioSemanaInicial[3]
+                                 -25           -25             = 
+    29 inventario[1,2]
+                                 -18           -18             = 
+    30 inventario[1,3]
+                                 -21           -21             = 
+    31 inventario[1,4]
+                                 -17           -17             = 
+    32 inventario[2,2]
+                                 -22           -22             = 
+    33 inventario[2,3]
+                                 -18           -18             = 
+    34 inventario[2,4]
+                                 -25           -25             = 
+    35 inventario[3,2]
+                                 -23           -23             = 
+    36 inventario[3,3]
+                                 -28           -28             = 
+    37 inventario[3,4]
+                                 -24           -24             = 
+    38 capacidadBodega[1]
+                                  18                          50 
+    39 capacidadBodega[2]
+                                  21                          50 
+    40 capacidadBodega[3]
+                                  18                          50 
+    41 capacidadBodega[4]
+                                  18                          50 
+    42 trabajadoresMinimo20PorcientoTotal[1]
+                                 0.4            -0               
+    43 trabajadoresMinimo20PorcientoTotal[2]
+                                 0.4            -0               
+    44 trabajadoresMinimo20PorcientoTotal[3]
+                                 0.4            -0               
+    45 trabajadoresMinimo20PorcientoTotal[4]
+                                 0.4            -0               
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1,1,1]     *              1             0               
+     2 X[1,1,2]     *              1             0               
+     3 X[1,2,1]     *              1             0               
+     4 X[1,2,2]     *              0             0               
+     5 X[1,3,1]     *              1             0               
+     6 X[1,3,2]     *              0             0               
+     7 X[1,4,1]     *              1             0               
+     8 X[1,4,2]     *              0             0               
+     9 X[2,1,1]     *              1             0               
+    10 X[2,1,2]     *              0             0               
+    11 X[2,2,1]     *              1             0               
+    12 X[2,2,2]     *              0             0               
+    13 X[2,3,1]     *              1             0               
+    14 X[2,3,2]     *              0             0               
+    15 X[2,4,1]     *              1             0               
+    16 X[2,4,2]     *              0             0               
+    17 X[3,1,1]     *              2             0               
+    18 X[3,1,2]     *              1             0               
+    19 X[3,2,1]     *              2             0               
+    20 X[3,2,2]     *              0             0               
+    21 X[3,3,1]     *              2             0               
+    22 X[3,3,2]     *              0             0               
+    23 X[3,4,1]     *              2             0               
+    24 X[3,4,2]     *              0             0               
+    25 Y[1,1]       *              5             0               
+    26 Y[1,2]       *              6             0               
+    27 Y[1,3]       *              5             0               
+    28 Y[1,4]       *              5             0               
+    29 Y[2,1]       *             10             0               
+    30 Y[2,2]       *             10             0               
+    31 Y[2,3]       *             10             0               
+    32 Y[2,4]       *             10             0               
+    33 Y[3,1]       *              3             0               
+    34 Y[3,2]       *              5             0               
+    35 Y[3,3]       *              3             0               
+    36 Y[3,4]       *              3             0               
+    37 W[1,1]       *             25             0               
+    38 W[1,2]       *             19             0               
+    39 W[1,3]       *             20             0               
+    40 W[1,4]       *             17             0               
+    41 W[2,1]       *             30             0               
+    42 W[2,2]       *             22             0               
+    43 W[2,3]       *             18             0               
+    44 W[2,4]       *             25             0               
+    45 W[3,1]       *             28             0               
+    46 W[3,2]       *             25             0               
+    47 W[3,3]       *             26             0               
+    48 W[3,4]       *             24             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 4.44e-16 on row 42
+        max.rel.err = 6.00e-17 on row 42
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

@@ -1,0 +1,141 @@
+Problem:    mantenimientoMaquina
+Rows:       43
+Columns:    36 (36 integer, 36 binary)
+Non-zeros:  103
+Status:     INTEGER OPTIMAL
+Objective:  z = 35000 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 z                       35000                             
+     2 comprarYearUno
+                                   1             1             = 
+     3 ventaFinalYear5
+                                   1             1             = 
+     4 balance[2]                  0            -0             = 
+     5 balance[3]                  0            -0             = 
+     6 balance[4]                  0            -0             = 
+     7 balance[5]                  0            -0             = 
+     8 variablesCero[1,1]
+                                   0                          -0 
+     9 variablesCero[1,2]
+                                   0                           1 
+    10 variablesCero[1,3]
+                                   1                           1 
+    11 variablesCero[1,4]
+                                   0                           1 
+    12 variablesCero[1,5]
+                                   0                           1 
+    13 variablesCero[1,6]
+                                   0                           1 
+    14 variablesCero[2,1]
+                                   0                          -0 
+    15 variablesCero[2,2]
+                                   0                          -0 
+    16 variablesCero[2,3]
+                                   0                           1 
+    17 variablesCero[2,4]
+                                   0                           1 
+    18 variablesCero[2,5]
+                                   0                           1 
+    19 variablesCero[2,6]
+                                   0                           1 
+    20 variablesCero[3,1]
+                                   0                          -0 
+    21 variablesCero[3,2]
+                                   0                          -0 
+    22 variablesCero[3,3]
+                                   0                          -0 
+    23 variablesCero[3,4]
+                                   0                           1 
+    24 variablesCero[3,5]
+                                   0                           1 
+    25 variablesCero[3,6]
+                                   1                           1 
+    26 variablesCero[4,1]
+                                   0                          -0 
+    27 variablesCero[4,2]
+                                   0                          -0 
+    28 variablesCero[4,3]
+                                   0                          -0 
+    29 variablesCero[4,4]
+                                   0                          -0 
+    30 variablesCero[4,5]
+                                   0                           1 
+    31 variablesCero[4,6]
+                                   0                           1 
+    32 variablesCero[5,1]
+                                   0                          -0 
+    33 variablesCero[5,2]
+                                   0                          -0 
+    34 variablesCero[5,3]
+                                   0                          -0 
+    35 variablesCero[5,4]
+                                   0                          -0 
+    36 variablesCero[5,5]
+                                   0                          -0 
+    37 variablesCero[5,6]
+                                   0                           1 
+    38 variablesCero[6,1]
+                                   0                          -0 
+    39 variablesCero[6,2]
+                                   0                          -0 
+    40 variablesCero[6,3]
+                                   0                          -0 
+    41 variablesCero[6,4]
+                                   0                          -0 
+    42 variablesCero[6,5]
+                                   0                          -0 
+    43 variablesCero[6,6]
+                                   0                          -0 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1,2]       *              0             0             1 
+     2 X[1,3]       *              1             0             1 
+     3 X[1,4]       *              0             0             1 
+     4 X[1,5]       *              0             0             1 
+     5 X[1,6]       *              0             0             1 
+     6 X[2,3]       *              0             0             1 
+     7 X[2,4]       *              0             0             1 
+     8 X[2,5]       *              0             0             1 
+     9 X[2,6]       *              0             0             1 
+    10 X[3,4]       *              0             0             1 
+    11 X[3,5]       *              0             0             1 
+    12 X[3,6]       *              1             0             1 
+    13 X[4,5]       *              0             0             1 
+    14 X[4,6]       *              0             0             1 
+    15 X[5,6]       *              0             0             1 
+    16 X[1,1]       *              0             0             1 
+    17 X[6,6]       *              0             0             1 
+    18 X[2,2]       *              0             0             1 
+    19 X[3,2]       *              0             0             1 
+    20 X[4,2]       *              0             0             1 
+    21 X[5,2]       *              0             0             1 
+    22 X[6,2]       *              0             0             1 
+    23 X[2,1]       *              0             0             1 
+    24 X[3,3]       *              0             0             1 
+    25 X[4,3]       *              0             0             1 
+    26 X[5,3]       *              0             0             1 
+    27 X[6,3]       *              0             0             1 
+    28 X[3,1]       *              0             0             1 
+    29 X[4,4]       *              0             0             1 
+    30 X[5,4]       *              0             0             1 
+    31 X[6,4]       *              0             0             1 
+    32 X[4,1]       *              0             0             1 
+    33 X[5,5]       *              0             0             1 
+    34 X[6,5]       *              0             0             1 
+    35 X[5,1]       *              0             0             1 
+    36 X[6,1]       *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

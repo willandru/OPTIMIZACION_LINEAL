@@ -1,0 +1,52 @@
+Problem:    buque
+Rows:       13
+Columns:    5 (5 integer, 0 binary)
+Non-zeros:  25
+Status:     INTEGER OPTIMAL
+Objective:  Z = 1232 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Z                        1232                             
+     2 pesoMaximo               95.7                         112 
+     3 volMaximo                 109                         109 
+     4 cargaMinima[1]
+                                  50            10               
+     5 cargaMinima[2]
+                                   8             8               
+     6 cargaMinima[3]
+                                  70            14               
+     7 cargaMinima[4]
+                                  80            16               
+     8 cargaMinima[5]
+                                  39            20               
+     9 cargaMaxima[1]
+                                  50                          50 
+    10 cargaMaxima[2]
+                                   8                          40 
+    11 cargaMaxima[3]
+                                  70                          70 
+    12 cargaMaxima[4]
+                                  80                          80 
+    13 cargaMaxima[5]
+                                  39                         100 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 X[1]         *             50             0               
+     2 X[2]         *              8             0               
+     3 X[3]         *             70             0               
+     4 X[4]         *             80             0               
+     5 X[5]         *             39             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

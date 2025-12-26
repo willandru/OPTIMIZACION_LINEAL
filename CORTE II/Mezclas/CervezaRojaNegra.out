@@ -1,0 +1,66 @@
+Problem:    CervezaRojaNegra
+Rows:       15
+Columns:    6
+Non-zeros:  49
+Status:     OPTIMAL
+Objective:  Z = 26500 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Z            B          26500                             
+     2 demandaCerveza[1]
+                    NL          1200          1200                     8.33333 
+     3 demandaCerveza[2]
+                    NL          1500          1500                          11 
+     4 maxCantIngredientes[1]
+                    B           1900                        2000 
+     5 maxCantIngredientes[2]
+                    B            800                         860 
+     6 maxCantIngredientes[3]
+                    B              0                         930 
+     7 unidadesMinNutrienteporCerveza[1,1]
+                    B           6000            -0               
+     8 unidadesMinNutrienteporCerveza[1,2]
+                    B          24000            -0               
+     9 unidadesMinNutrienteporCerveza[1,3]
+                    NL             0            -0                    0.266667 
+    10 unidadesMinNutrienteporCerveza[2,1]
+                    B          52500            -0               
+    11 unidadesMinNutrienteporCerveza[2,2]
+                    B         120000            -0               
+    12 unidadesMinNutrienteporCerveza[2,3]
+                    NL             0            -0                    0.266667 
+    13 cervezaNegravsRoja
+                    B            450            -0               
+    14 levaduraVsLupulo
+                    B           -320                          -0 
+    15 cebadaMinima B             10            -0               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 X[1,1]       B            400             0               
+     2 X[1,2]       B            800             0               
+     3 X[1,3]       NL             0             0                    0.666667 
+     4 X[2,1]       B           1500             0               
+     5 X[2,2]       B              0             0               
+     6 X[2,3]       NL             0             0                    0.666667 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.14e-13 on row 15
+        max.rel.err = 9.96e-17 on row 15
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 5.33e-15 on column 1
+        max.rel.err = 2.32e-16 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
